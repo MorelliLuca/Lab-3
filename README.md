@@ -6,5 +6,5 @@ In una cartella separata sono invece contenute le relazioni in LaTex con i files
 ### Come utilizzare i codici di Root
 Ogni esperienza dispone del codice utilizzato per l'analisi dati, salvato in appositi file *.cpp*.
 Per poterli utilizzare è necessario avviare Root e avviare l'analisi come Macro. Ogni file può contenre più macro in base alle operazioni necessarie per la prova. 
-Prima di avviare ogni macro è necessario inserire i dati acquisiti negli appositi file *.dat" secpndo la formattazione richiesta da Root (TGraph).
+Prima di avviare ogni macro è necessario inserire i dati acquisiti negli appositi file *.dat* secpndo la formattazione richiesta da Root (TGraph).
 I risultarti sono stamapati in appositi file *.txt*.
