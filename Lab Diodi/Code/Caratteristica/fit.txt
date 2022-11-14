@@ -1,0 +1,2 @@
+Fit function is like : I = I0(exp(v/etaV)-1) 
+I0=0.00100001+/-8.33605e-05mA   etaV=50.0003+/-2.96159 mV
