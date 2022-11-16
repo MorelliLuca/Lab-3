@@ -48,7 +48,7 @@ void IV(){
     pad1->cd();
     gStyle->SetPadGridX(true);
     gStyle->SetPadGridY(true);
-    TGraphErrors* gr = new TGraphErrors("data.dat","%lg %lg %lg");
+    TGraphErrors* gr = new TGraphErrors("data.dat","%lg %lg %lg %lg");
     gr->SetTitle("Caratteristica I-V diodio al germanio ;ddp ai capi del Diodo [mV];Corrente nel diodo [mA]");
     gr->Draw("APE");
 

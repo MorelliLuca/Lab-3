@@ -63,9 +63,14 @@ void IV(){
     leg->AddEntry(gr->GetFunction("fit"),"Fit","l");
     leg->Draw("SAME");
     
+    pad2->cd();
+    gr->Draw("APE");
+    leg->Draw("SAME");
+    gr->GetFunction("fit")->Draw("SAME");
 
     canvas->cd();
     pad1->Draw();
+    pad2->Draw();
     
     std::fstream in;
     in.open("fit.txt",std::fstream::out);
