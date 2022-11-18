@@ -14,13 +14,56 @@ Lo mettiamo? Lei non lo menziona
 \end{abstract}
 
 \section{Scopo della prova}
-La prova consisteva nella misura delle caratteristiche I-V di due diodi a giunzione p-n, uno al silicio e uno al germanio. Si sono inoltre realizzati dei fit su ROOT in modo da ricavare i parametri fisici corrente inversa ``$  I_{0}$" e ``$\eta V_{T}$", rispettivamente la corrente inversa e il prodotto tra il fattore di idealità e l'equivalente della temperatura in volt. 
+La prova consisteva nella misura delle caratteristiche I-V di due diodi a giunzione p-n, uno al silicio e uno al germanio. Abbiamo inoltre realizzato dei fit su ROOT in modo da ricavare i parametri fisici corrente inversa ``$  I_{0}$" e ``$\eta V_{T}$", rispettivamente la corrente inversa e il prodotto tra il fattore di idealità e l'equivalente della temperatura in volt. 
 \section{Procedura}
 %teoricamente non la richiede, ma io metterei qui lo schema del circuito invece di fare una sezione intera solo con quello
+Per prima cosa abbiamo eseguito la calibrazione della tensione misurata con l'oscilloscopio, mettendola in relazione con quella data dal multimetro. Per fare ciò abbiamo collegato l'oscilloscopio al punto C e abbiamo cortocircuitato i punti A-B e abbiamo preso 10 misure tra i 50 e i 760 mV. Abbiamo prima preso il valore dell'oscilloscopio e poi quello del multimetro.
+Spostando poi il potenziometro fuori dal circuito abbiamo regolato la resistenza a $ 500 \,\Omega $, per poi reinserirlo e mettere anche tra i punti A e B il diodo, prima al silicio e poi al germanio, con il catodo nel punto A. Dopo aver spostato l'oscilloscopio nel punto D abbiamo effettuato 16 misure per il silicio e 23 per il germanio, agendo sul potenziometro per variare la tensione e leggendo poi la corrente dal multimetro. Infine, abbiamo riportato i dati su dei grafici con scala semi-logaritmica ed eseguito i fit per ottenere i parametri ricercati.
 \section{Materiali utilizzati}
+\begin{itemize}
+	\item Potenziometro da $ 1 \,k\Omega $
+	\item Diodo p-n: AAZ15/OA47 Germanio
+	\item Diodo p-n: 1N914A/1N4446/1N4148 Silicio
+	\item Cavetti
+	\item Cacciavite
+	\item Cavi a doppia banana
+	\item Breadboard
+\end{itemize}
 \section{Strumentazione}
+\begin{itemize}
+	\item Alimentatore a bassa tensione
+	\item Oscilloscopio ISO-TECH, ISR 622 20MHz
+	\item Multimetro digitale
+\end{itemize}
 \section{Misurazioni}
 \subsection{Calibrazione dell'oscilloscopio}
+\begin{center}
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		Tensione oscilloscopio (mV)& Fondo scala (mV) & Tensione multimetro (mV) \\
+		\hline
+		$ 50\pm 14 $ &$ 10 $ & $ 48.20\pm 0.34 $ \\
+		\hline
+		$ 130\pm51 $ &$ 50 $ & $ 123.40\pm 0.57 $ \\
+		\hline
+		$ 210\pm 51 $ &$ 50 $ & $ 202.6\pm 0.81 $ \\
+		\hline
+		$ 280\pm 101 $ &$ 100 $ & $ 268.8\pm 1 $ \\
+		\hline
+		$ 360\pm 101 $ &$ 100 $ & $ 349.3\pm 1.2 $ \\
+		\hline
+		$ 440\pm 101 $ &$ 100 $ & $ 428\pm 2.4 $ \\
+		\hline
+		$ 520\pm 102 $ &$ 100 $ & $ 505\pm 2.5 $ \\
+		\hline
+		$ 600\pm 201 $ &$ 200 $ & $ 571\pm 2.6 $ \\
+		\hline
+		$ 680\pm 201 $ &$ 200 $ & $ 654\pm 2.7 $ \\
+		\hline
+		$ 760\pm 202 $ &$ 200 $ & $ 734\pm 2.7 $ \\
+		\hline
+	\end{tabular}
+\end{center}
 \subsection{Silicio}
 \subsection{Germanio}
 \section{Grafici}
