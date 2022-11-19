@@ -1,5 +1,6 @@
 \documentclass[]{article}
-
+\usepackage{multirow}
+\usepackage{amsmath}
 %opening
 \title{Misura della caratteristica I-V di due diodi a giunzione p-n}
 \author{Cristina Caprioglio, Luca Morelli}
@@ -36,6 +37,48 @@ Spostando poi il potenziometro fuori dal circuito abbiamo regolato la resistenza
 	\item Multimetro digitale
 \end{itemize}
 \section{Misurazioni}
+La tabella di seguito riporta i valori relativi a fondo scala, risoluzione e precisione dei vari strumenti:
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+	\cline{2-4}
+	\multicolumn{1}{c|}{} & Fondo scala & Risoluzione & Precisione \\
+	\hline
+	\multirow{4}{*}{Oscilloscopio (mV)} & 10 & 2 & 3\% \\
+	\cline{2-4}
+	& 50 & 10 & 3\% \\
+	\cline{2-4}
+	& 100 & 20 & 3\% \\
+	\cline{2-4}
+	& 200 & 40 & 3\% \\
+	\hline
+	\multirow{4}{*}{Multimetro (mV)} & 10 & 2 & 3\% \\
+	\cline{2-4}
+	& 50 & 10 & 3\% \\
+	\cline{2-4}
+	& 100 & 20 & 3\% \\
+	\cline{2-4}
+	& 200 & 40 & 3\% \\
+	\hline
+	\multirow{4}{*}{Multimetro (mA)} & 10 & 2 & 3\% \\
+	\cline{2-4}
+	& 50 & 10 & 3\% \\
+	\cline{2-4}
+	& 100 & 20 & 3\% \\
+	\cline{2-4}
+	& 200 & 40 & 3\% \\
+	\hline
+\end{tabular}
+\end{center}
+Per il calcolo degli errori relativi alle misure effettuate con l'oscilloscopio si è usata la seguente formula:
+\begin{equation}
+	\sigma=\sqrt{(\sigma_{L})^{2}+(\sigma_{Z})^{2}+(\sigma_{C})^{2}}
+\end{equation}
+$ 	\sigma_{C}= (misura*0.03) $ è l'errore del costruttore.
+\begin{equation*}
+	\sigma_{L}=\sigma_{Z}=\frac{fondo \:scala}{5}*\#tacchette \:apprezzabili
+\end{equation*}
+$ \sigma_{Z} $ è l'errore sullo zero, il fondo scala vale 10 mV e il numero di tacchette apprezzabili 5.\\
+$ \sigma_{L} $ è l'errore sulla lettura e il fondo scala varia in base alla misura, mentre il numero di tacchette apprezzabili é stato considerato 5 per tutte le misure con eccezion fatta per quelle relative a 550, 570 e 620 mV nella misura della caratteristica del silicio, dove ne abbiamo considerate 10.
 \subsection{Calibrazione dell'oscilloscopio}
 \begin{center}
 	\begin{tabular}{|c|c|c|c|}
@@ -64,9 +107,103 @@ Spostando poi il potenziometro fuori dal circuito abbiamo regolato la resistenza
 		\hline
 	\end{tabular}
 \end{center}
+
 \subsection{Silicio}
+\begin{center}
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		Tensione oscilloscopio (mV)& Fondo scala (mV) & Corrente multimetro (mA) \\
+		\hline
+		$ 420\pm 101 $ &$ 100 $ & $ 0.016\pm 0.002 $ \\
+		\hline
+		$440\pm101 $ &$ 100 $ & $ 0.025\pm0.002 $ \\
+		\hline
+		$ 460\pm 101 $ &$ 100 $ & $ 0.038\pm 0.002 $ \\
+		\hline
+		$ 500\pm 101 $ &$ 100 $ & $ 0.082\pm 0.002 $ \\
+		\hline
+		$ 520\pm 102 $ &$ 100 $ & $0.121\pm 0.002$ \\
+		\hline
+		$ 540\pm 102 $ &$ 100 $ & $ 0.185\pm 0.003 $ \\
+		\hline
+		$ 550\pm 202 $ &$ 100 $ & $ 0.213\pm 0.003 $ \\
+		\hline
+		$ 560\pm 102 $ &$ 100 $ & $ 0.284\pm 0.003 $ \\
+		\hline
+		$ 570\pm 202 $ &$ 100 $ & $ 0.297\pm 0.003 $ \\
+		\hline
+		$ 580\pm 102 $ &$ 100 $ & $ 0.350\pm 0.004 $ \\
+		\hline
+		$ 600\pm 201 $ &$ 200 $ & $ 0.602\pm0.004 $ \\
+		\hline
+		$ 620\pm 401 $ &$ 200 $ & $ 0.738\pm0.005 $ \\
+		\hline
+		$ 640\pm 201 $ &$ 200 $ & $ 1.207\pm0.007 $ \\
+		\hline
+		$ 680\pm 201 $ &$ 200 $ & $ 2.238\pm 0.010 $ \\
+		\hline
+		$ 720\pm 201 $ &$ 200 $ & $ 2.615\pm 0.012 $ \\
+		\hline
+		$ 760\pm 202 $ &$ 200 $ & $ 3.701\pm 0.017 $ \\
+		\hline
+			\end{tabular}
+	\end{center}
 \subsection{Germanio}
+\begin{center}
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		Tensione oscilloscopio (mV)& Fondo scala (mV) & Corrente multimetro (mA) \\
+		\hline
+		$ 70\pm 51 $ &$ 50 $ & $ 0.014\pm 0.002 $ \\
+		\hline
+		$ 80\pm 51 $ &$ 50 $ & $ 0.020\pm 0.002 $ \\
+		\hline
+		$ 90\pm 51 $ &$ 50 $ & $ 0.026\pm 0.002 $ \\
+		\hline
+		$ 100\pm 51 $ &$ 50 $ & $ 0.034\pm 0.002 $ \\
+		\hline
+		$110\pm 51 $ &$ 50 $ & $ 0.045\pm 0.002 $ \\
+		\hline
+		$ 120\pm 51 $ &$ 50 $ & $ 0.056\pm 0.002 $ \\
+		\hline
+		$ 130\pm 51 $ &$ 50 $ & $ 0.071\pm 0.002 $ \\
+		\hline
+		$ 140\pm 51 $ &$ 50 $ & $ 0.089\pm 0.002 $ \\
+		\hline
+		$ 150\pm 51 $ &$ 50 $ & $ 0.109\pm 0.002 $ \\
+		\hline
+		$ 160\pm 51 $ &$ 50 $ & $ 0.134\pm 0.003 $ \\
+		\hline
+		$ 170\pm 51 $ &$ 50 $ & $ 0.162\pm 0.003 $ \\
+		\hline
+		$ 180\pm 51 $ &$ 50 $ & $ 0.200\pm 0.003 $ \\
+		\hline
+		$ 190\pm 51 $ &$ 50 $ & $ 0.244\pm 0.003 $ \\
+		\hline
+		$ 200\pm 51 $ &$ 50 $ & $ 0.305\pm 0.003 $ \\
+		\hline
+		$ 210\pm 51 $ &$ 50 $ & $ 0.323\pm 0.003 $ \\
+		\hline
+		$ 220\pm 51 $ &$ 50 $ & $ 0.441\pm 0.004 $ \\
+		\hline
+		$ 230\pm 51 $ &$ 50 $ & $ 0.451\pm 0.004 $ \\
+		\hline
+		$ 240\pm 52 $ &$ 50 $ & $ 0.537\pm 0.004 $ \\
+		\hline
+		$ 250\pm 52 $ &$ 50 $ & $ 0.712\pm 0.005 $ \\
+		\hline
+		$ 260\pm 52 $ &$ 50 $ & $ 0.730\pm 0.005 $ \\
+		\hline
+		$ 270\pm 52 $ &$ 50 $ & $ 0.850\pm 0.005 $ \\
+		\hline
+		$ 280\pm 52 $ &$ 50 $ & $ 0.990\pm 0.006 $ \\
+		\hline
+		$ 290\pm 52 $ &$ 50 $ & $ 1.118\pm 0.006 $ \\
+		\hline
+	\end{tabular}
+\end{center}
 \section{Grafici}
+
 \subsection{Calibrazione dell'oscilloscopio}
 \subsection{Silicio}
 \subsection{Germanio}
