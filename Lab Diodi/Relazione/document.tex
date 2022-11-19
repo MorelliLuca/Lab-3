@@ -1,6 +1,7 @@
 \documentclass[]{article}
 \usepackage{multirow}
 \usepackage{amsmath}
+\usepackage{circuitikz}
 %opening
 \title{Misura della caratteristica I-V di due diodi a giunzione p-n}
 \author{Cristina Caprioglio, Luca Morelli}
@@ -17,7 +18,25 @@ Lo mettiamo? Lei non lo menziona
 \section{Scopo della prova}
 La prova consisteva nella misura delle caratteristiche I-V di due diodi a giunzione p-n, uno al silicio e uno al germanio. Abbiamo inoltre realizzato dei fit su ROOT in modo da ricavare i parametri fisici corrente inversa ``$  I_{0}$" e ``$\eta V_{T}$", rispettivamente la corrente inversa e il prodotto tra il fattore di idealità e l'equivalente della temperatura in volt. 
 \section{Procedura}
-%teoricamente non la richiede, ma io metterei qui lo schema del circuito invece di fare una sezione intera solo con quello
+\begin{center}
+\begin{circuitikz}
+	\draw
+	(0,4) node[above]{$Ground$} to[short, *-]
+	(0,2) to[potentiometer, -, l=1$ k\Omega $] (2,2) 
+	(2.5,0) node[below]{$B$} to[empty diode, *-*] (1.25,0)node[below]{$A$}--(0,0)--(0,2)
+	(2,4) node[above]{$+5V$} to[short, *-] (2,2)
+	;
+	\draw [<-]
+	(1,1.5)--(1,1)--(2,1);
+	\draw
+	(2,1)--(2.5,1) node[above]{$C$} to[short, *-] (3,1)
+	 to[short, -*] (3, 3.5)node[above]{$(Red)$} (3.5, 4)node[above]{$Multimeter$}
+	;
+	\draw
+	(4,3.5)node[above]{$(Black)$} to[short, *-] (4,0)--(3.5,0)node[below]{$D$}to[short, *-](2.5,0)
+	;
+\end{circuitikz}
+\end{center}
 Per prima cosa abbiamo eseguito la calibrazione della tensione misurata con l'oscilloscopio, mettendola in relazione con quella data dal multimetro. Per fare ciò abbiamo collegato l'oscilloscopio al punto C e abbiamo cortocircuitato i punti A-B e abbiamo preso 10 misure tra i 50 e i 760 mV. Abbiamo prima preso il valore dell'oscilloscopio e poi quello del multimetro.
 Spostando poi il potenziometro fuori dal circuito abbiamo regolato la resistenza a $ 500 \,\Omega $, per poi reinserirlo e mettere anche tra i punti A e B il diodo, prima al silicio e poi al germanio, con il catodo nel punto A. Dopo aver spostato l'oscilloscopio nel punto D abbiamo effettuato 16 misure per il silicio e 23 per il germanio, agendo sul potenziometro per variare la tensione e leggendo poi la corrente dal multimetro. Infine, abbiamo riportato i dati su dei grafici con scala semi-logaritmica ed eseguito i fit per ottenere i parametri ricercati.
 \section{Materiali utilizzati}
