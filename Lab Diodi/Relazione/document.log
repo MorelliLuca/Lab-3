@@ -1,163 +1,161 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.19)  21 NOV 2022 15:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.26)  21 NOV 2022 18:29
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **./document.tex
 (document.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2021-11-22>
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-12-07> xparse <2020-03-03>
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count183
-\c@section=\count184
-\c@subsection=\count185
-\c@subsubsection=\count186
-\c@paragraph=\count187
-\c@subparagraph=\count188
-\c@figure=\count189
-\c@table=\count190
+\c@part=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
+\c@figure=\count183
+\c@table=\count184
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip49
-\multirow@cntb=\count191
+\multirow@cntb=\count185
 \multirow@dima=\skip50
 \bigstrutjot=\dimen139
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2021/10/15 v2.17l AMS math features
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
-Package: amstext 2021/08/26 v2.01 AMS text
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
 
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks16
+\@emptytoks=\toks15
 \ex@=\dimen140
 ))
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen141
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
-Package: amsopn 2021/08/26 v2.02 operator names
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count192
+\inf@bad=\count186
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count193
-\leftroot@=\count194
+\uproot@=\count187
+\leftroot@=\count188
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count195
-\DOTSCASE@=\count196
+\classnum@=\count189
+\DOTSCASE@=\count190
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box50
-\strutbox@=\box51
+\Mathstrutbox@=\box47
+\strutbox@=\box48
 \big@size=\dimen142
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count197
-\c@MaxMatrixCols=\count198
+\macc@depth=\count191
+\c@MaxMatrixCols=\count192
 \dotsspace@=\muskip16
-\c@parentequation=\count199
-\dspbrk@lvl=\count266
-\tag@help=\toks17
-\row@=\count267
-\column@=\count268
-\maxfields@=\count269
-\andhelp@=\toks18
+\c@parentequation=\count193
+\dspbrk@lvl=\count194
+\tag@help=\toks16
+\row@=\count195
+\column@=\count196
+\maxfields@=\count197
+\andhelp@=\toks17
 \eqnshift@=\dimen143
 \alignsep@=\dimen144
 \tagshift@=\dimen145
 \tagwidth@=\dimen146
 \totwidth@=\dimen147
 \lineht@=\dimen148
-\@envbody=\toks19
+\@envbody=\toks18
 \multlinegap=\skip52
 \multlinetaggap=\skip53
-\mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2938.
-LaTeX Info: Redefining \] on input line 2939.
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/circuitikz\circuitikz.s
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/circuitikz\circuitikz.s
 ty
 Package: circuitikz 2022/11/12{} The CircuiTikz circuit drawing package version
  1.5.5
 
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
 sty
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
 y
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -common.tex
-\pgfutil@everybye=\toks21
+\pgfutil@everybye=\toks20
 \pgfutil@tempdima=\dimen149
 \pgfutil@tempdimb=\dimen150
 
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -common-lists.tex))
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -latex.def
-\pgfutil@abb=\box52
+\pgfutil@abb=\box49
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
 code.tex
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
-Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2020/12/01 v3.1.7a (3.1.7a)
 ))
-Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+Package: pgf 2020/12/01 v3.1.7a (3.1.7a)
 
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
 sty
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
+\KV@toks@=\toks21
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
 fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen151
 \Gin@req@width=\dimen152
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
 sty
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 s.code.tex
-Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+Package: pgfsys 2020/12/01 v3.1.7a (3.1.7a)
 
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 .code.tex
-\pgfkeys@pathtoks=\toks23
-\pgfkeys@temptoks=\toks24
+\pgfkeys@pathtoks=\toks22
+\pgfkeys@temptoks=\toks23
 
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 filtered.code.tex
-\pgfkeys@tmptoks=\toks25
+\pgfkeys@tmptoks=\toks24
 ))
 \pgf@x=\dimen153
 \pgf@y=\dimen154
@@ -171,102 +169,102 @@ filtered.code.tex
 \pgf@yd=\dimen162
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count270
-\c@pgf@countb=\count271
-\c@pgf@countc=\count272
-\c@pgf@countd=\count273
-\t@pgf@toka=\toks26
-\t@pgf@tokb=\toks27
-\t@pgf@tokc=\toks28
-\pgf@sys@id@count=\count274
+\c@pgf@counta=\count198
+\c@pgf@countb=\count199
+\c@pgf@countc=\count266
+\c@pgf@countd=\count267
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
+\pgf@sys@id@count=\count268
 
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
 fg
-File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+File: pgf.cfg 2020/12/01 v3.1.7a (3.1.7a)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 s-pdftex.def
-File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfsys-pdftex.def 2020/12/01 v3.1.7a (3.1.7a)
 
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 s-common-pdf.def
-File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfsys-common-pdf.def 2020/12/01 v3.1.7a (3.1.7a)
 )))
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 ssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count275
-\pgfsyssoftpath@bigbuffer@items=\count276
+File: pgfsyssoftpath.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+\pgfsyssoftpath@smallbuffer@items=\count269
+\pgfsyssoftpath@bigbuffer@items=\count270
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 sprotocol.code.tex
-File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfsysprotocol.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 ))
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 227.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
-Package xcolor Info: Model `RGB' extended on input line 1368.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 e.code.tex
-Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+Package: pgfcore 2020/12/01 v3.1.7a (3.1.7a)
 
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
 .tex
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
 code.tex
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
 code.tex)
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
 r.code.tex
 \pgfmath@dimen=\dimen163
-\pgfmath@count=\count277
-\pgfmath@box=\box53
-\pgfmath@toks=\toks29
-\pgfmath@stack@operand=\toks30
-\pgfmath@stack@operation=\toks31
+\pgfmath@count=\count271
+\pgfmath@box=\box50
+\pgfmath@toks=\toks28
+\pgfmath@stack@operand=\toks29
+\pgfmath@stack@operation=\toks30
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.code.tex
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.basic.code.tex)
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.trigonometric.code.tex)
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.random.code.tex)
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.comparison.code.tex)
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.base.code.tex)
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.round.code.tex)
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.misc.code.tex)
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.integerarithmetics.code.tex)))
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
 .code.tex
-\c@pgfmathroundto@lastzeros=\count278
+\c@pgfmathroundto@lastzeros=\count272
 ))
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
 tex)
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epoints.code.tex
-File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfcorepoints.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 \pgf@picminx=\dimen164
 \pgf@picmaxx=\dimen165
 \pgf@picminy=\dimen166
@@ -282,134 +280,134 @@ File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@zx=\dimen176
 \pgf@zy=\dimen177
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfcorepathconstruct.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 \pgf@path@lastx=\dimen178
 \pgf@path@lasty=\dimen179
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epathusage.code.tex
-File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfcorepathusage.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 \pgf@shorten@end@additional=\dimen180
 \pgf@shorten@start@additional=\dimen181
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 escopes.code.tex
-File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfpic=\box54
-\pgf@hbox=\box55
-\pgf@layerbox@main=\box56
-\pgf@picture@serial@count=\count279
+File: pgfcorescopes.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+\pgfpic=\box51
+\pgf@hbox=\box52
+\pgf@layerbox@main=\box53
+\pgf@picture@serial@count=\count273
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 egraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfcoregraphicstate.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 \pgflinewidth=\dimen182
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 etransformations.code.tex
-File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfcoretransformations.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 \pgf@pt@x=\dimen183
 \pgf@pt@y=\dimen184
 \pgf@pt@temp=\dimen185
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 equick.code.tex
-File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfcorequick.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eobjects.code.tex
-File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfcoreobjects.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfcorepathprocessing.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 earrows.code.tex
-File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfcorearrows.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 \pgfarrowsep=\dimen186
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eshade.code.tex
-File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfcoreshade.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 \pgf@max=\dimen187
-\pgf@sys@shading@range@num=\count280
-\pgf@shadingcount=\count281
+\pgf@sys@shading@range@num=\count274
+\pgf@shadingcount=\count275
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eimage.code.tex
-File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfcoreimage.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eexternal.code.tex
-File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfexternal@startupbox=\box57
+File: pgfcoreexternal.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+\pgfexternal@startupbox=\box54
 ))
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 elayers.code.tex
-File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfcorelayers.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 etransparency.code.tex
-File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfcoretransparency.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epatterns.code.tex
-File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfcorepatterns.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 erdf.code.tex
-File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfcorerdf.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 )))
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 shapes.code.tex
-File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box58
+File: pgfmoduleshapes.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+\pgfnodeparttextbox=\box55
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 plot.code.tex
-File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfmoduleplot.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
 mp-version-0-65.sty
-Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+Package: pgfcomp-version-0-65 2020/12/01 v3.1.7a (3.1.7a)
 \pgf@nodesepstart=\dimen188
 \pgf@nodesepend=\dimen189
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
 mp-version-1-18.sty
-Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+Package: pgfcomp-version-1-18 2020/12/01 v3.1.7a (3.1.7a)
 ))
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
 y
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
 ty
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 .code.tex))
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
 .tex))
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
 code.tex
-Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+Package: pgffor 2020/12/01 v3.1.7a (3.1.7a)
 
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
 .tex)
 \pgffor@iter=\dimen190
 \pgffor@skip=\dimen191
-\pgffor@stack=\toks32
-\pgffor@toks=\toks33
+\pgffor@stack=\toks31
+\pgffor@toks=\toks32
 ))
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z\tikz.code.tex
-Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+Package: tikz 2020/12/01 v3.1.7a (3.1.7a)
 
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count282
+File: pgflibraryplothandlers.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+\pgf@plot@mark@count=\count276
 \pgfplotmarksize=\dimen192
 )
 \tikz@lastx=\dimen193
@@ -420,56 +418,56 @@ File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikz@lastmovetoy=\dimen198
 \tikzleveldistance=\dimen199
 \tikzsiblingdistance=\dimen256
-\tikz@figbox=\box59
-\tikz@figbox@bg=\box60
-\tikz@tempbox=\box61
-\tikz@tempbox@bg=\box62
-\tikztreelevel=\count283
-\tikznumberofchildren=\count284
-\tikznumberofcurrentchild=\count285
-\tikz@fig@count=\count286
+\tikz@figbox=\box56
+\tikz@figbox@bg=\box57
+\tikz@tempbox=\box58
+\tikz@tempbox@bg=\box59
+\tikztreelevel=\count277
+\tikznumberofchildren=\count278
+\tikznumberofcurrentchild=\count279
+\tikz@fig@count=\count280
 
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 matrix.code.tex
-File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count287
-\pgfmatrixcurrentcolumn=\count288
-\pgf@matrix@numberofcolumns=\count289
+File: pgfmodulematrix.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+\pgfmatrixcurrentrow=\count281
+\pgfmatrixcurrentcolumn=\count282
+\pgf@matrix@numberofcolumns=\count283
 )
-\tikz@expandcount=\count290
+\tikz@expandcount=\count284
 
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: tikzlibrarytopaths.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 )))
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: tikzlibrarycalc.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryarrows.meta.code.tex
-File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgflibraryarrows.meta.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 \pgfarrowinset=\dimen257
 \pgfarrowlength=\dimen258
 \pgfarrowwidth=\dimen259
 \pgfarrowlinewidth=\dimen260
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarybending.code.tex
-File: tikzlibrarybending.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: tikzlibrarybending.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 bending.code.tex
-File: pgfmodulebending.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfmodulebending.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 nonlineartransformations.code.tex
-File: pgfmodulenonlineartransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgfmodulenonlineartransformations.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 \pgftransformnonlinearflatness=\dimen261
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 arycurvilinear.code.tex
-File: pgflibrarycurvilinear.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+File: pgflibrarycurvilinear.code.tex 2020/12/01 v3.1.7a (3.1.7a)
 \pgf@curvilinear@time@a=\dimen262
 \pgf@curvilinear@length@a=\dimen263
 \pgf@curvilinear@length@b=\dimen264
@@ -478,15 +476,15 @@ File: pgflibrarycurvilinear.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 \pgf@arrows@the@rigidity=\dimen267
 ))
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibraryfpu.code.tex
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryfpu.code.tex))
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirc.de
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirc.de
 fines.tex
-\pgf@circ@count@a=\count291
-\pgf@circ@count@b=\count292
-\pgf@circ@count@c=\count293
+\pgf@circ@count@a=\count285
+\pgf@circ@count@b=\count286
+\pgf@circ@count@c=\count287
 \pgf@circ@res@up=\dimen268
 \pgf@circ@res@down=\dimen269
 \pgf@circ@res@zero=\dimen270
@@ -499,127 +497,184 @@ fines.tex
 \pgf@circ@scaled@Rlen=\dimen277
 \pgfstartlinewidth=\dimen278
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircuti
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircuti
 ls.tex
-\ctikz@scratchbox=\box63
+\ctikz@scratchbox=\box60
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircpat
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircpat
 h.tex)
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircsha
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircsha
 pes.tex)
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircmon
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircmon
 opoles.tex)
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircbip
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircbip
 oles.tex)
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirctri
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirctri
 poles.tex
-\pgf@circ@res@count=\count294
+\pgf@circ@res@count=\count288
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircqua
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircqua
 dpoles.tex)
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircmul
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircmul
 tipoles.tex)
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirclab
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirclab
 el.tex)
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircvol
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircvol
 tage.tex
 \pgfcirc@labelshift=\dimen279
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirccur
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirccur
 rent.tex)
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircflo
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircflo
 w.tex))
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2020/10/27 3.51 The Babel package
+
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2020/10/27 3.51 Babel common definitions
+\babel@savecnt=\count289
+\U@D=\dimen280
+\l@babelnohyphens=\language79
+
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read3
+)
+\bbl@dirlevel=\count290
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/babel-italian\italian.l
+df
+Language: italian 2022/03/27 v.1.4.07 Italian support for the babel system
+\it@lettering=\count291
+\it@doublequoteactive=\count292
+\it@ISOcompliance=\count293
+))
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count294
+)
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count295
+\float@exts=\toks33
+\float@box=\box61
+\@float@everytoks=\toks34
+\@floatcapt=\box62
+)
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
-File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count295
-\l__pdf_internal_box=\box64
+File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count296
+\l__pdf_internal_box=\box63
 ) (document.aux)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count296
-\scratchdimen=\dimen280
-\scratchbox=\box65
-\nofMPsegments=\count297
-\nofMParguments=\count298
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count299
-\MPscratchDim=\dimen281
-\MPnumerator=\count300
-\makeMPintoPDFobject=\count301
-\everyMPtoPDFconversion=\toks35
+\scratchcounter=\count297
+\scratchdimen=\dimen281
+\scratchbox=\box64
+\nofMPsegments=\count298
+\nofMParguments=\count299
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count300
+\MPscratchDim=\dimen282
+\MPnumerator=\count301
+\makeMPintoPDFobject=\count302
+\everyMPtoPDFconversion=\toks36
 )
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+(C:\Users\lyoko\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-
-(C:\Users\crica\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-)) [1
-
-{C:/Users/crica/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-[2]
-Overfull \hbox (8.11176pt too wide) in paragraph at lines 103--128
- [] 
- []
+)
+LaTeX Info: Redefining \it@ocap on input line 14.
+LaTeX Info: Redefining \it@ccap on input line 14.
 
 
-Overfull \hbox (8.11176pt too wide) in paragraph at lines 132--169
- [] 
+File italian.ldf warning: 
+italian.ldf    With OT1 encoding guillemets are poorly faked
+italian.ldf    Use T1 encoding
+italian.ldf    or specify a font with command \CaporaliFrom
+italian.ldf    See the documentation concerning the babel-italian typesetting 
+italian.ldf    on input line 14.
+
+[1
+
+{C:/Users/lyoko/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2]
+Overfull \hbox (58.75095pt too wide) in paragraph at lines 103--129
+[][] 
  []
 
 [3]
-Overfull \hbox (8.11176pt too wide) in paragraph at lines 172--223
- [] 
- []
-
-[4] [5] (document.aux) ) 
+<../Silicio/Calibrazione.pdf, id=27, 569.12625pt x 387.4475pt>
+File: ../Silicio/Calibrazione.pdf Graphic file (type pdf)
+<use ../Silicio/Calibrazione.pdf>
+Package pdftex.def Info: ../Silicio/Calibrazione.pdf  used on input line 242.
+(pdftex.def)             Requested size: 360.00137pt x 245.09233pt.
+ [4]
+<../Silicio/canvas.pdf, id=31, 569.12625pt x 275.0275pt>
+File: ../Silicio/canvas.pdf Graphic file (type pdf)
+<use ../Silicio/canvas.pdf>
+Package pdftex.def Info: ../Silicio/canvas.pdf  used on input line 251.
+(pdftex.def)             Requested size: 450.0pt x 217.47078pt.
+ [5 <../Silicio/Calibrazione.pdf, page is rotated 90 degrees>]
+<../Germanio/canvas.pdf, id=78, 569.12625pt x 275.0275pt>
+File: ../Germanio/canvas.pdf Graphic file (type pdf)
+<use ../Germanio/canvas.pdf>
+Package pdftex.def Info: ../Germanio/canvas.pdf  used on input line 260.
+(pdftex.def)             Requested size: 450.0pt x 217.47078pt.
+ [6 <../Silicio/canvas.pdf, page is rotated 90 degrees>] [7 <../Germanio/canvas
+.pdf, page is rotated 90 degrees>] (document.aux) ) 
 Here is how much of TeX's memory you used:
- 28600 strings out of 478659
- 746796 string characters out of 2845919
- 1262601 words of memory out of 3000000
- 46437 multiletter control sequences out of 15000+600000
- 409447 words of font info for 48 fonts, out of 8000000 for 9000
+ 29470 strings out of 479697
+ 752255 string characters out of 2867132
+ 1269602 words of memory out of 3000000
+ 46268 multiletter control sequences out of 15000+200000
+ 409447 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,8n,118p,578b,1001s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\crica\AppData\Local\MiKTeX\fonts/pk/ljfour/j
-knappen/ec/dpi600\tcrm1000.pk><C:/Users/crica/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/crica/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/crica/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/crica/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/cric
-a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Us
-ers/crica/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pf
-b><C:/Users/crica/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr12.pfb><C:/Users/crica/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr17.pfb><C:/Users/crica/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmr7.pfb><C:/Users/crica/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr9.pfb><C:/Users/crica/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on document.pdf (5 pages, 146228 bytes).
+ 122i,10n,124p,579b,1001s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\lyoko\AppData\Loc
+al\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/lyoko/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/lyo
+ko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/U
+sers/lyoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.
+pfb><C:/Users/lyoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmmi10.pfb><C:/Users/lyoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmmi7.pfb><C:/Users/lyoko/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><C:/Users/lyoko/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lyoko/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/lyoko/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/lyoko/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/lyoko/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/l
+yoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on document.pdf (7 pages, 200739 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
+ 214 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 

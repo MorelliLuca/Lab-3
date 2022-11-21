@@ -2,6 +2,10 @@
 \usepackage{multirow}
 \usepackage{amsmath}
 \usepackage{circuitikz}
+\usepackage{graphicx}
+\usepackage[italian]{babel}
+\usepackage{float}
+\textwidth=450pt\oddsidemargin=0pt
 %opening
 \title{Misura della caratteristica I-V di due diodi a giunzione p-n}
 \author{Cristina Caprioglio, Luca Morelli}
@@ -53,40 +57,35 @@ Spostando poi il potenziometro fuori dal circuito abbiamo regolato la resistenza
 \begin{itemize}
 	\item Alimentatore a bassa tensione
 	\item Oscilloscopio ISO-TECH, ISR 622 20MHz
-	\item Multimetro digitale
+	\item Multimetro digitale ISO-TECH, IDM 105
 \end{itemize}
 \section{Misurazioni}
 La tabella di seguito riporta i valori relativi a fondo scala, risoluzione e precisione dei vari strumenti:
 \begin{center}
-\begin{tabular}{|c|c|c|c|}
-	\cline{2-4}
-	\multicolumn{1}{c|}{} & Fondo scala & Risoluzione & Precisione \\
-	\hline
-	\multirow{4}{*}{Oscilloscopio (mV)} & 10 & 2 & 3\% \\
-	\cline{2-4}
-	& 50 & 10 & 3\% \\
-	\cline{2-4}
-	& 100 & 20 & 3\% \\
-	\cline{2-4}
-	& 200 & 40 & 3\% \\
-	\hline
-	\multirow{4}{*}{Multimetro (mV)} & 10 & 2 & 3\% \\
-	\cline{2-4}
-	& 50 & 10 & 3\% \\
-	\cline{2-4}
-	& 100 & 20 & 3\% \\
-	\cline{2-4}
-	& 200 & 40 & 3\% \\
-	\hline
-	\multirow{4}{*}{Multimetro (mA)} & 10 & 2 & 3\% \\
-	\cline{2-4}
-	& 50 & 10 & 3\% \\
-	\cline{2-4}
-	& 100 & 20 & 3\% \\
-	\cline{2-4}
-	& 200 & 40 & 3\% \\
-	\hline
-\end{tabular}
+	\begin{table}[H]
+		\begin{tabular}{|c|c|c|c|}
+			\cline{2-4}
+			\multicolumn{1}{c|}{} & Fondo scala & Risoluzione & Precisione \\
+			\hline
+			\multirow{4}{*}{Oscilloscopio (mV)} & 10 & 2 & 3\% \\
+			\cline{2-4}
+			& 50 & 10 & 3\% \\
+			\cline{2-4}
+			& 100 & 20 & 3\% \\
+			\cline{2-4}
+			& 200 & 40 & 3\% \\
+			\hline
+			\multirow{2}{*}{Multimetro (mV)} & 400 & 0.1 & 0.3\%$+2d$ \\
+			\cline{2-4}
+			&$4\cdot10^3$ & 1 & 0.1\%$+2d$\\
+			\hline
+			Multimetro (mA) & 4 - 400 & $10^{-3}$ & 0.4\%$+2d$ \\
+			\hline
+		\end{tabular}
+	\label{tab:strumenti}
+	\caption{Dati forniti dai data sheet della strumentazione utilizzata}
+	\end{table}
+
 \end{center}
 Per il calcolo degli errori relativi alle misure effettuate con l'oscilloscopio si è usata la seguente formula:
 \begin{equation}
@@ -94,137 +93,174 @@ Per il calcolo degli errori relativi alle misure effettuate con l'oscilloscopio 
 \end{equation}
 $ 	\sigma_{C}= (misura*0.03) $ è l'errore del costruttore.
 \begin{equation*}
-	\sigma_{L}=\sigma_{Z}=\frac{fondo \:scala}{5}*\#tacchette \:apprezzabili
+	\sigma_{L}=\sigma_{Z}=\frac{fondo \:scala}{5}\cdot\#tacchette \:apprezzabili
 \end{equation*}
-$ \sigma_{Z} $ è l'errore sullo zero, il fondo scala vale 10 mV e il numero di tacchette apprezzabili 5.\\
-$ \sigma_{L} $ è l'errore sulla lettura e il fondo scala varia in base alla misura, mentre il numero di tacchette apprezzabili é stato considerato 5 per tutte le misure con eccezion fatta per quelle relative a 550, 570 e 620 mV nella misura della caratteristica del silicio, dove ne abbiamo considerate 10.
+$ \sigma_{Z} $ è l'errore sullo zero, il fondo scala vale 10 mV e il numero di tacchette apprezzabili 1.\\
+$ \sigma_{L} $ è l'errore sulla lettura e il fondo scala varia in base alla misura, mentre il numero di tacchette apprezzabili é stato considerato 1 per tutte le misure con eccezion fatta per quelle relative a 550, 570 e 620 mV nella misura della caratteristica del silicio, dove ne abbiamo considerate $\frac{1}{2}$.
 \subsection{Calibrazione dell'oscilloscopio}
 \begin{center}
-	\begin{tabular}{|c|c|c|c|}
+	\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|}
 		\hline
-		Tensione oscilloscopio (mV)& Fondo scala (mV) & Tensione multimetro (mV) \\
+		Tensione oscilloscopio (mV)& Fondo scala oscillos. (mV) & Tensione multimetro (mV) & Fondo scala mult. (mV) \\
 		\hline
-		$ 50\pm 2.1 $ &$ 10 $ & $ 48.20\pm 0.34 $ \\
+		$ 50\pm 2.1 $ &$ 10 $ & $ 48.20\pm 0.34 $ &400\\
 		\hline
-		$ 130\pm 6.4$ &$ 50 $ & $ 123.40\pm 0.57 $ \\
+		$ 130\pm 6.4$ &$ 50 $ & $ 123.40\pm 0.57 $ &400\\
 		\hline
-		$ 210\pm 8.1 $ &$ 50 $ & $ 202.6\pm 0.81 $ \\
+		$ 210\pm 8.1 $ &$ 50 $ & $ 202.6\pm 0.81 $ &400\\
 		\hline
-		$ 280\pm 13$ &$ 100 $ & $ 268.8\pm 1 $ \\
+		$ 280\pm 13$ &$ 100 $ & $ 268.8\pm 1 $ &400\\
 		\hline
-		$ 360\pm 15 $ &$ 100 $ & $ 349.3\pm 1.2 $ \\
+		$ 360\pm 15 $ &$ 100 $ & $ 349.3\pm 1.2 $ &400\\
 		\hline
-		$ 440\pm 17 $ &$ 100 $ & $ 428\pm 2.4 $ \\
+		$ 440\pm 17 $ &$ 100 $ & $ 428\pm 2.4 $ &4$\cdot10^3$\\
 		\hline
-		$ 520\pm 19 $ &$ 100 $ & $ 505\pm 2.5 $ \\
+		$ 520\pm 19 $ &$ 100 $ & $ 505\pm 2.5 $ &4$\cdot10^3$\\
 		\hline
-		$ 600\pm 27 $ &$ 200 $ & $ 571\pm 2.6 $ \\
+		$ 600\pm 27 $ &$ 200 $ & $ 571\pm 2.6 $ &4$\cdot10^3$\\
 		\hline
-		$ 680\pm 29 $ &$ 200 $ & $ 654\pm 2.7 $ \\
+		$ 680\pm 29 $ &$ 200 $ & $ 654\pm 2.7 $&4$\cdot10^3$ \\
 		\hline
-		$ 760\pm 30 $ &$ 200 $ & $ 734\pm 2.7 $ \\
+		$ 760\pm 30 $ &$ 200 $ & $ 734\pm 2.7 $&4$\cdot10^3$ \\
 		\hline
+		
 	\end{tabular}
+\caption{Punti sperimentali della calibrazione dell'oscilloscopio}
+\label{tab:calibrazione}
+\end{table}
 \end{center}
 
 \subsection{Silicio}
 \begin{center}
-	\begin{tabular}{|c|c|c|c|}
+	\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|}
 		\hline
-		Tensione oscilloscopio (mV)& Fondo scala (mV) & Corrente multimetro (mA) \\
+		Tensione oscilloscopio (mV)& Fondo scala (mV) & Corrente multimetro (mA) &Fondo scala (mA)\\
 		\hline
-		$ 420\pm 16 $ &$ 100 $ & $ 0.016\pm 0.002 $ \\
+		$ 420\pm 16 $ &$ 100 $ & $ 0.016\pm 0.002 $ &4\\
 		\hline
-		$440\pm17 $ &$ 100 $ & $ 0.025\pm0.002 $ \\
+		$440\pm17 $ &$ 100 $ & $ 0.025\pm0.002 $ &4 \\
 		\hline
-		$ 460\pm 17 $ &$ 100 $ & $ 0.038\pm 0.002 $ \\
+		$ 460\pm 17 $ &$ 100 $ & $ 0.038\pm 0.002 $ &4 \\
 		\hline
-		$ 500\pm 18 $ &$ 100 $ & $ 0.082\pm 0.002 $ \\
+		$ 500\pm 18 $ &$ 100 $ & $ 0.082\pm 0.002 $ &4 \\
 		\hline
-		$ 520\pm 19 $ &$ 100 $ & $0.121\pm 0.002$ \\
+		$ 520\pm 19 $ &$ 100 $ & $0.121\pm 0.002$ &4 \\
 		\hline
-		$ 540\pm 19 $ &$ 100 $ & $ 0.185\pm 0.003 $ \\
+		$ 540\pm 19 $ &$ 100 $ & $ 0.185\pm 0.003 $ &4 \\
 		\hline
-		$ 550\pm 19 $ &$ 100 $ & $ 0.213\pm 0.003 $ \\
+		$ 550\pm 19 $ &$ 100 $ & $ 0.213\pm 0.003 $ &4 \\
 		\hline
-		$ 560\pm 20 $ &$ 100 $ & $ 0.284\pm 0.003 $ \\
+		$ 560\pm 20 $ &$ 100 $ & $ 0.284\pm 0.003 $ &4 \\
 		\hline
-		$ 570\pm 20 $ &$ 100 $ & $ 0.297\pm 0.003 $ \\
+		$ 570\pm 20 $ &$ 100 $ & $ 0.297\pm 0.003 $ &4 \\
 		\hline
-		$ 580\pm 20 $ &$ 100 $ & $ 0.350\pm 0.004 $ \\
+		$ 580\pm 20 $ &$ 100 $ & $ 0.350\pm 0.004 $ &4 \\
 		\hline
-		$ 600\pm 27 $ &$ 200 $ & $ 0.602\pm0.004 $ \\
+		$ 600\pm 27 $ &$ 200 $ & $ 0.602\pm0.004 $  &4\\
 		\hline
-		$ 620\pm 27 $ &$ 200 $ & $ 0.738\pm0.005 $ \\
+		$ 620\pm 27 $ &$ 200 $ & $ 0.738\pm0.005 $  &4\\
 		\hline
-		$ 640\pm 28 $ &$ 200 $ & $ 1.207\pm0.007 $ \\
+		$ 640\pm 28 $ &$ 200 $ & $ 1.207\pm0.007 $  &4\\
 		\hline
-		$ 680\pm 29 $ &$ 200 $ & $ 2.238\pm 0.010 $ \\
+		$ 680\pm 29 $ &$ 200 $ & $ 2.238\pm 0.010 $ &4 \\
 		\hline
-		$ 720\pm 29 $ &$ 200 $ & $ 2.615\pm 0.012 $ \\
+		$ 720\pm 29 $ &$ 200 $ & $ 2.615\pm 0.012 $ &4 \\
 		\hline
-		$ 760\pm 30 $ &$ 200 $ & $ 3.701\pm 0.017 $ \\
+		$ 760\pm 30 $ &$ 200 $ & $ 3.701\pm 0.017 $ &4 \\
 		\hline
 			\end{tabular}
+		\caption{Punti acquisiti per la caratteristica I-V del Silicio}
+		\label{tab:silicio}
+	\end{table}
 	\end{center}
 \subsection{Germanio}
 \begin{center}
-	\begin{tabular}{|c|c|c|c|}
+	\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|}
 		\hline
-		Tensione oscilloscopio (mV)& Fondo scala (mV) & Corrente multimetro (mA) \\
+		Tensione oscilloscopio (mV)& Fondo scala (mV) & Corrente multimetro (mA) &Fondo scala (mA)\\
 		\hline
-		$ 70\pm 5.5 $ &$ 50 $ & $ 0.014\pm 0.002 $ \\
+		$ 70\pm 5.5 $ &$ 50 $ & $ 0.014\pm 0.002 $ &4 \\
 		\hline
-		$ 80\pm 5.6$ &$ 50 $ & $ 0.020\pm 0.002 $ \\
+		$ 80\pm 5.6$ &$ 50 $ & $ 0.020\pm 0.002 $&4 \\
 		\hline
-		$ 90\pm 5.8$ &$ 50 $ & $ 0.026\pm 0.002 $ \\
+		$ 90\pm 5.8$ &$ 50 $ & $ 0.026\pm 0.002 $&4 \\
 		\hline
-		$ 100\pm 5.9 $ &$ 50 $ & $ 0.034\pm 0.002 $ \\
+		$ 100\pm 5.9 $ &$ 50 $ & $ 0.034\pm 0.002 $&4 \\
 		\hline
-		$110\pm 6.1 $ &$ 50 $ & $ 0.045\pm 0.002 $ \\
+		$110\pm 6.1 $ &$ 50 $ & $ 0.045\pm 0.002 $&4 \\
 		\hline
-		$ 120\pm 6.2 $ &$ 50 $ & $ 0.056\pm 0.002 $ \\
+		$ 120\pm 6.2 $ &$ 50 $ & $ 0.056\pm 0.002 $&4 \\
 		\hline
-		$ 130\pm 6.4$ &$ 50 $ & $ 0.071\pm 0.002 $ \\
+		$ 130\pm 6.4$ &$ 50 $ & $ 0.071\pm 0.002 $&4 \\
 		\hline
-		$ 140\pm 6.6$ &$ 50 $ & $ 0.089\pm 0.002 $ \\
+		$ 140\pm 6.6$ &$ 50 $ & $ 0.089\pm 0.002 $&4 \\
 		\hline
-		$ 150\pm 6.8$ &$ 50 $ & $ 0.109\pm 0.002 $ \\
+		$ 150\pm 6.8$ &$ 50 $ & $ 0.109\pm 0.002 $&4 \\
 		\hline
-		$ 160\pm 7.0$ &$ 50 $ & $ 0.134\pm 0.003 $ \\
+		$ 160\pm 7.0$ &$ 50 $ & $ 0.134\pm 0.003 $&4 \\
 		\hline
-		$ 170\pm 7.2$ &$ 50 $ & $ 0.162\pm 0.003 $ \\
+		$ 170\pm 7.2$ &$ 50 $ & $ 0.162\pm 0.003 $&4 \\
 		\hline
-		$ 180\pm 7.4$ &$ 50 $ & $ 0.200\pm 0.003 $ \\
+		$ 180\pm 7.4$ &$ 50 $ & $ 0.200\pm 0.003 $&4 \\
 		\hline
-		$ 190\pm 7.7$ &$ 50 $ & $ 0.244\pm 0.003 $ \\
+		$ 190\pm 7.7$ &$ 50 $ & $ 0.244\pm 0.003 $&4 \\
 		\hline
-		$ 200\pm 7.9$ &$ 50 $ & $ 0.305\pm 0.003 $ \\
+		$ 200\pm 7.9$ &$ 50 $ & $ 0.305\pm 0.003 $&4 \\
 		\hline
-		$ 210\pm 8.1$ &$ 50 $ & $ 0.323\pm 0.003 $ \\
+		$ 210\pm 8.1$ &$ 50 $ & $ 0.323\pm 0.003 $&4 \\
 		\hline
-		$ 220\pm 8.3$ &$ 50 $ & $ 0.441\pm 0.004 $ \\
+		$ 220\pm 8.3$ &$ 50 $ & $ 0.441\pm 0.004 $&4 \\
 		\hline
-		$ 230\pm 8.6$ &$ 50 $ & $ 0.451\pm 0.004 $ \\
+		$ 230\pm 8.6$ &$ 50 $ & $ 0.451\pm 0.004 $&4 \\
 		\hline
-		$ 240\pm 8.8$ &$ 50 $ & $ 0.537\pm 0.004 $ \\
+		$ 240\pm 8.8$ &$ 50 $ & $ 0.537\pm 0.004 $&4 \\
 		\hline
-		$ 250\pm 9.1$ &$ 50 $ & $ 0.712\pm 0.005 $ \\
+		$ 250\pm 9.1$ &$ 50 $ & $ 0.712\pm 0.005 $&4 \\
 		\hline
-		$ 260\pm 9.3$ &$ 50 $ & $ 0.730\pm 0.005 $ \\
+		$ 260\pm 9.3$ &$ 50 $ & $ 0.730\pm 0.005 $&4 \\
 		\hline
-		$ 270\pm 9.6$ &$ 50 $ & $ 0.850\pm 0.005 $ \\
+		$ 270\pm 9.6$ &$ 50 $ & $ 0.850\pm 0.005 $&4 \\
 		\hline
-		$ 280\pm 9.8$ &$ 50 $ & $ 0.990\pm 0.006 $ \\
+		$ 280\pm 9.8$ &$ 50 $ & $ 0.990\pm 0.006 $&4 \\
 		\hline
-		$ 290\pm 10$ &$ 50 $ & $ 1.118\pm 0.006 $ \\
+		$ 290\pm 10$ &$ 50 $ & $ 1.118\pm 0.006 $&4 \\
 		\hline
 	\end{tabular}
+\caption{Punti acquisiti per la caratteristica I-V del Germanio}
+\label{tab:germanio}
+\end{table}
 \end{center}
-\section{Grafici}
+\section{Risultati}
 
 \subsection{Calibrazione dell'oscilloscopio}
+asd
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{../Silicio/Calibrazione}
+	\caption{Retta di calibrazione delle tensioni dell'oscilloscopio}
+	\label{fig:calibrazione}
+\end{figure}
+
 \subsection{Silicio}
+asd
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{../Silicio/canvas}
+	\caption{Caratteristicsa I-V del diodo al Silicio: a sinistra sono riportati i punti nel range utilizzato per effettuare il fit esponenziale mentre a destra sono riportati tutti i punti sperimentali in scala semilogaritmica con fit lineare}
+	\label{fig:silicio}
+\end{figure}
+
 \subsection{Germanio}
+asd
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{../Germanio/canvas}
+	\caption{Caratteristicsa I-V del diodo al Germanio: a sinistra sono riportati i punti nel range utilizzato per effettuare il fit esponenziale mentre a destra sono riportati tutti i punti sperimentali in scala semilogaritmica con fit lineare}
+	\label{fig:germanio}
+\end{figure}
+
 \section*{Conclusioni}
 \end{document}
