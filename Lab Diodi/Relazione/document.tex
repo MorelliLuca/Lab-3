@@ -95,8 +95,8 @@ dove $\sigma_{C}= (misura\cdot0.03) $ è l'errore del costruttore,
 \begin{equation*}
 	\sigma_{L}=\sigma_{Z}=\frac{fondo \:scala}{5}\cdot\#tacchette \:apprezzabili
 \end{equation*}
-$ \sigma_{Z} $ è l'errore sullo zero, in tal caso il fondo scala vale 10 mV e il numero di tacchette apprezzabili è pari a 1.\\
-Invece $ \sigma_{L} $ è l'errore sulla lettura e in questo caso il fondo scala varia in base alla misura, mentre il numero di tacchette apprezzabili é stato considerato 1 per tutte le misure con eccezion fatta per quelle relative a 550, 570 e 620 mV nella misura della caratteristica del silicio, dove ne abbiamo considerate $\frac{1}{2}$.
+$ \sigma_{Z} $ è l'errore sullo zero, in tal caso il fondo scala vale 10 mV.\\
+Invece $ \sigma_{L} $ è l'errore sulla lettura e in questo caso il fondo scala varia in base alla misura, mentre ``\#tacchette apprezzabili" é stato considerato 0.5 per tutte le misure.
 \subsection{Calibrazione dell'oscilloscopio}
 La tabella a seguire (\ref{tab:calibrazione}) riporta le misure utilizzate per calibrare l'oscilloscopio: per ogni misura è riportato il fondo scala utilizzato poichè, come si può vedere in tabella \ref{tab:strumenti}, questo influenza la stima dell'errore. 
 	\begin{table}[H]
@@ -105,25 +105,25 @@ La tabella a seguire (\ref{tab:calibrazione}) riporta le misure utilizzate per c
 		\hline
 		Tensione oscilloscopio (mV)& Fondo scala oscillos. (mV) & Tensione multimetro (mV) & Fondo scala mult. (mV) \\
 		\hline
-		$ 50\pm 2.1 $ &$ 10 $ & $ 48.20\pm 0.34 $ &400\\
+		$ 50\pm 2 $ &$ 10 $ & $ 48.2\pm 0.3 $ &400\\
 		\hline
-		$ 130\pm 6.4$ &$ 50 $ & $ 123.40\pm 0.57 $ &400\\
+		$ 130\pm 6$ &$ 50 $ & $ 123.4\pm 0.6 $ &400\\
 		\hline
-		$ 210\pm 8.1 $ &$ 50 $ & $ 202.6\pm 0.81 $ &400\\
+		$ 210\pm 8 $ &$ 50 $ & $ 202.6\pm 0.8 $ &400\\
 		\hline
-		$ 280\pm 13$ &$ 100 $ & $ 268.8\pm 1 $ &400\\
+		$ 280\pm 10$ &$ 100 $ & $ 269\pm 1 $ &400\\
 		\hline
-		$ 360\pm 15 $ &$ 100 $ & $ 349.3\pm 1.2 $ &400\\
+		$ 360\pm 20 $ &$ 100 $ & $ 349\pm 1 $ &400\\
 		\hline
-		$ 440\pm 17 $ &$ 100 $ & $ 428\pm 2.4 $ &4$\cdot10^3$\\
+		$ 440\pm 20 $ &$ 100 $ & $ 428\pm 2 $ &4$\cdot10^3$\\
 		\hline
-		$ 520\pm 19 $ &$ 100 $ & $ 505\pm 2.5 $ &4$\cdot10^3$\\
+		$ 520\pm 20 $ &$ 100 $ & $ 505\pm 3 $ &4$\cdot10^3$\\
 		\hline
-		$ 600\pm 27 $ &$ 200 $ & $ 571\pm 2.6 $ &4$\cdot10^3$\\
+		$ 600\pm 30 $ &$ 200 $ & $ 571\pm 3 $ &4$\cdot10^3$\\
 		\hline
-		$ 680\pm 29 $ &$ 200 $ & $ 654\pm 2.7 $&4$\cdot10^3$ \\
+		$ 680\pm 30 $ &$ 200 $ & $ 654\pm 3 $&4$\cdot10^3$ \\
 		\hline
-		$ 760\pm 30 $ &$ 200 $ & $ 734\pm 2.7 $&4$\cdot10^3$ \\
+		$ 760\pm 30 $ &$ 200 $ & $ 734\pm 3 $&4$\cdot10^3$ \\
 		\hline
 		
 	\end{tabular}
@@ -141,19 +141,19 @@ Nella seguente tabella (\ref{tab:silicio}) sono riportati i punti sperimentali a
 		\hline
 		Tensione oscilloscopio (mV)& Fondo scala (mV) & Corrente multimetro (mA) &Fondo scala (mA)\\
 		\hline
-		$ 420\pm 16 $ &$ 100 $ & $ 0.016\pm 0.002 $ &4\\
+		$ 420\pm 20 $ &$ 100 $ & $ 0.016\pm 0.002 $ &4\\
 		\hline
-		$440\pm17 $ &$ 100 $ & $ 0.025\pm0.002 $ &4 \\
+		$440\pm20 $ &$ 100 $ & $ 0.025\pm0.002 $ &4 \\
 		\hline
-		$ 460\pm 17 $ &$ 100 $ & $ 0.038\pm 0.002 $ &4 \\
+		$ 460\pm 20 $ &$ 100 $ & $ 0.038\pm 0.002 $ &4 \\
 		\hline
-		$ 500\pm 18 $ &$ 100 $ & $ 0.082\pm 0.002 $ &4 \\
+		$ 500\pm 20 $ &$ 100 $ & $ 0.082\pm 0.002 $ &4 \\
 		\hline
-		$ 520\pm 19 $ &$ 100 $ & $0.121\pm 0.002$ &4 \\
+		$ 520\pm 20 $ &$ 100 $ & $0.121\pm 0.002$ &4 \\
 		\hline
-		$ 540\pm 19 $ &$ 100 $ & $ 0.185\pm 0.003 $ &4 \\
+		$ 540\pm 20 $ &$ 100 $ & $ 0.185\pm 0.003 $ &4 \\
 		\hline
-		$ 550\pm 19 $ &$ 100 $ & $ 0.213\pm 0.003 $ &4 \\
+		$ 550\pm 20 $ &$ 100 $ & $ 0.213\pm 0.003 $ &4 \\
 		\hline
 		$ 560\pm 20 $ &$ 100 $ & $ 0.284\pm 0.003 $ &4 \\
 		\hline
@@ -161,17 +161,17 @@ Nella seguente tabella (\ref{tab:silicio}) sono riportati i punti sperimentali a
 		\hline
 		$ 580\pm 20 $ &$ 100 $ & $ 0.350\pm 0.004 $ &4 \\
 		\hline
-		$ 600\pm 27 $ &$ 200 $ & $ 0.602\pm0.004 $  &4\\
+		$ 600\pm 30 $ &$ 200 $ & $ 0.602\pm0.004 $  &4\\
 		\hline
-		$ 620\pm 27 $ &$ 200 $ & $ 0.738\pm0.005 $  &4\\
+		$ 620\pm 30 $ &$ 200 $ & $ 0.738\pm0.005 $  &4\\
 		\hline
-		$ 640\pm 28 $ &$ 200 $ & $ 1.207\pm0.007 $  &4\\
+		$ 640\pm 30 $ &$ 200 $ & $ 1.207\pm0.007 $  &4\\
 		\hline
-		$ 680\pm 29 $ &$ 200 $ & $ 2.238\pm 0.010 $ &4 \\
+		$ 680\pm 30 $ &$ 200 $ & $ 2.24\pm 0.01 $ &4 \\
 		\hline
-		$ 720\pm 29 $ &$ 200 $ & $ 2.615\pm 0.012 $ &4 \\
+		$ 720\pm 30 $ &$ 200 $ & $ 2.62\pm 0.01 $ &4 \\
 		\hline
-		$ 760\pm 30 $ &$ 200 $ & $ 3.701\pm 0.017 $ &4 \\
+		$ 760\pm 30 $ &$ 200 $ & $ 3.70\pm 0.02 $ &4 \\
 		\hline
 			\end{tabular}
 		\caption{Punti acquisiti per la caratteristica I-V del Silicio}
@@ -185,49 +185,49 @@ Nella tabella (\ref{tab:silicio}), sotto riportata, sono presentati i punti sper
 		\hline
 		Tensione oscilloscopio (mV)& Fondo scala (mV) & Corrente multimetro (mA) &Fondo scala (mA)\\
 		\hline
-		$ 70\pm 5.5 $ &$ 50 $ & $ 0.014\pm 0.002 $ &4 \\
+		$ 70\pm 6 $ &$ 50 $ & $ 0.014\pm 0.002 $ &4 \\
 		\hline
-		$ 80\pm 5.6$ &$ 50 $ & $ 0.020\pm 0.002 $&4 \\
+		$ 80\pm 6$ &$ 50 $ & $ 0.020\pm 0.002 $&4 \\
 		\hline
-		$ 90\pm 5.8$ &$ 50 $ & $ 0.026\pm 0.002 $&4 \\
+		$ 90\pm 6$ &$ 50 $ & $ 0.026\pm 0.002 $&4 \\
 		\hline
-		$ 100\pm 5.9 $ &$ 50 $ & $ 0.034\pm 0.002 $&4 \\
+		$ 100\pm 6 $ &$ 50 $ & $ 0.034\pm 0.002 $&4 \\
 		\hline
-		$110\pm 6.1 $ &$ 50 $ & $ 0.045\pm 0.002 $&4 \\
+		$110\pm 6 $ &$ 50 $ & $ 0.045\pm 0.002 $&4 \\
 		\hline
-		$ 120\pm 6.2 $ &$ 50 $ & $ 0.056\pm 0.002 $&4 \\
+		$ 120\pm 6 $ &$ 50 $ & $ 0.056\pm 0.002 $&4 \\
 		\hline
-		$ 130\pm 6.4$ &$ 50 $ & $ 0.071\pm 0.002 $&4 \\
+		$ 130\pm 6$ &$ 50 $ & $ 0.071\pm 0.002 $&4 \\
 		\hline
-		$ 140\pm 6.6$ &$ 50 $ & $ 0.089\pm 0.002 $&4 \\
+		$ 140\pm 7$ &$ 50 $ & $ 0.089\pm 0.002 $&4 \\
 		\hline
-		$ 150\pm 6.8$ &$ 50 $ & $ 0.109\pm 0.002 $&4 \\
+		$ 150\pm 7$ &$ 50 $ & $ 0.109\pm 0.002 $&4 \\
 		\hline
-		$ 160\pm 7.0$ &$ 50 $ & $ 0.134\pm 0.003 $&4 \\
+		$ 160\pm 7$ &$ 50 $ & $ 0.134\pm 0.003 $&4 \\
 		\hline
-		$ 170\pm 7.2$ &$ 50 $ & $ 0.162\pm 0.003 $&4 \\
+		$ 170\pm 7$ &$ 50 $ & $ 0.162\pm 0.003 $&4 \\
 		\hline
-		$ 180\pm 7.4$ &$ 50 $ & $ 0.200\pm 0.003 $&4 \\
+		$ 180\pm 7$ &$ 50 $ & $ 0.200\pm 0.003 $&4 \\
 		\hline
-		$ 190\pm 7.7$ &$ 50 $ & $ 0.244\pm 0.003 $&4 \\
+		$ 190\pm 8$ &$ 50 $ & $ 0.244\pm 0.003 $&4 \\
 		\hline
-		$ 200\pm 7.9$ &$ 50 $ & $ 0.305\pm 0.003 $&4 \\
+		$ 200\pm 8$ &$ 50 $ & $ 0.305\pm 0.003 $&4 \\
 		\hline
-		$ 210\pm 8.1$ &$ 50 $ & $ 0.323\pm 0.003 $&4 \\
+		$ 210\pm 8$ &$ 50 $ & $ 0.323\pm 0.003 $&4 \\
 		\hline
-		$ 220\pm 8.3$ &$ 50 $ & $ 0.441\pm 0.004 $&4 \\
+		$ 220\pm 8$ &$ 50 $ & $ 0.441\pm 0.004 $&4 \\
 		\hline
-		$ 230\pm 8.6$ &$ 50 $ & $ 0.451\pm 0.004 $&4 \\
+		$ 230\pm 9$ &$ 50 $ & $ 0.451\pm 0.004 $&4 \\
 		\hline
-		$ 240\pm 8.8$ &$ 50 $ & $ 0.537\pm 0.004 $&4 \\
+		$ 240\pm 9$ &$ 50 $ & $ 0.537\pm 0.004 $&4 \\
 		\hline
-		$ 250\pm 9.1$ &$ 50 $ & $ 0.712\pm 0.005 $&4 \\
+		$ 250\pm 9$ &$ 50 $ & $ 0.712\pm 0.005 $&4 \\
 		\hline
-		$ 260\pm 9.3$ &$ 50 $ & $ 0.730\pm 0.005 $&4 \\
+		$ 260\pm 9$ &$ 50 $ & $ 0.730\pm 0.005 $&4 \\
 		\hline
-		$ 270\pm 9.6$ &$ 50 $ & $ 0.850\pm 0.005 $&4 \\
+		$ 270\pm 10$ &$ 50 $ & $ 0.850\pm 0.005 $&4 \\
 		\hline
-		$ 280\pm 9.8$ &$ 50 $ & $ 0.990\pm 0.006 $&4 \\
+		$ 280\pm 10$ &$ 50 $ & $ 0.990\pm 0.006 $&4 \\
 		\hline
 		$ 290\pm 10$ &$ 50 $ & $ 1.118\pm 0.006 $&4 \\
 		\hline
@@ -237,13 +237,13 @@ Nella tabella (\ref{tab:silicio}), sotto riportata, sono presentati i punti sper
 \end{table}
 \section{Elaborazione dati e risultati}
 
-La prima fase di elaborazione dati consiste nella verifica della calibrazione dell'oscilloscopio, questa ci premette di valutare la miglior stima dell'errore su quest'ultimo. In seguito abbiamo proseguito fittando i dati sperimentali delle tabelle (formula \ref{tab:silicio}) e (formula \ref{tab:germanio}) per ottenere i parametri caratteristici dei diodi. Per ogni diodo sono stati effettuati due fit: uno esponenziale (\ref{fitexp}) e uno lineare (\ref{fitlin}) pesato utilizzando i logaritmi delle correnti misurate.
+La prima fase di elaborazione dati consiste nella verifica della calibrazione dell'oscilloscopio, questa ci premette di valutare la miglior stima dell'errore su quest'ultimo. In seguito abbiamo proseguito fittando i dati sperimentali delle tabelle (formula \ref{tab:silicio}) e (formula \ref{tab:germanio}) per ottenere i parametri caratteristici dei diodi con relativi errori, ottenuti tramite somma in quadratura per via dei dati non indipendenti tra loro. Per ogni diodo sono stati effettuati due fit: uno esponenziale (\ref{fitexp}) e uno lineare (\ref{fitlin}) pesato utilizzando i logaritmi delle correnti misurate.
 \begin{equation}
 	I(V)=I_0(e^{\frac{V}{\eta V_T}}-1)
 	\label{fitexp}
 \end{equation}
 \begin{equation}
-	asdasdasdasdasdas%Da mettere la formula dalle sue slide che non me la ricordo
+	Y=a+bX \quad con\quad Y=V,\: X=lnI, \:a=-\eta V_{T}lnI_{0},\: b=\eta V_{T}%Siamo sicuri sia giusta?
 	\label{fitlin}
 \end{equation}
 Infine i risultati sono stati riportati su appositi grafici assieme ai punti sperimentali in modo da costruire graficamente la curva I-V. 
@@ -267,7 +267,7 @@ Dai dati in tabella (\ref{tab:silicio}), come già spiegato, sono stati effettua
 Osserviamo che le misure ottenute dai due fit sono compatibili tra loro seppur il fit lineare si riveli più preciso riuscendo a stimare con un errore minore il parametro $I_0$.
 I parametri misurati si rivelano in questo caso in accordo con quelli attesi.
 \subsection{Germanio}
-I fit effettuati e riportati graficamente in figura (\ref{fig:germanio}) hanno concesso di stimare $I_0=(4\pm1)\mu A$ e $\eta V_T=(43\pm5)mV$ (fit esponenziale) e $I_0=(2.6\pm0.3)\mu A$ e $\eta V_T=(40\pm3)mV$ (fit lineare). Anche in questo caso per entrambi i fit non sono stati utilizzati tutti i punti sperimentali raccolti. In questo caso la deviazione dal comportamento ideale è ancor più evidente che con il diodo al Silico, come si può apprezzare negli ultimi punti rappresentati, seppur non utilizzati, del grafico semilogaritimico in figura(\ref{fig:germanio}).
+I fit effettuati e riportati graficamente in figura (\ref{fig:germanio}) hanno concesso di stimare $I_0=(4\pm1)\mu A$ e $\eta V_T=(43\pm5)mV$ (fit esponenziale) e $I_0=(2.6\pm0.3)\mu A$ e $\eta V_T=(40\pm3)mV$ (fit lineare). Anche in questo caso per entrambi i fit non sono stati utilizzati tutti i punti sperimentali raccolti. In questo caso la deviazione dal comportamento ideale è ancor più evidente che con il diodo al Silicio, come si può apprezzare negli ultimi punti rappresentati, seppur non utilizzati, del grafico semilogaritimico in figura(\ref{fig:germanio}).
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\linewidth]{../Germanio/canvas}
