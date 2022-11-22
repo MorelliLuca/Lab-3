@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.26)  21 NOV 2022 18:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.26)  22 NOV 2022 20:21
 entering extended mode
 **./document.tex
 (document.tex
@@ -622,59 +622,64 @@ italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
 italian.ldf    on input line 14.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+ []
+
 [1
 
 {C:/Users/lyoko/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2]
-Overfull \hbox (58.75095pt too wide) in paragraph at lines 103--129
-[][] 
+Overfull \hbox (58.75095pt too wide) in paragraph at lines 104--130
+ [][] 
  []
 
-[3]
-<../Silicio/Calibrazione.pdf, id=27, 569.12625pt x 387.4475pt>
+[3] [4]
+<../Silicio/Calibrazione.pdf, id=28, 569.12625pt x 387.4475pt>
 File: ../Silicio/Calibrazione.pdf Graphic file (type pdf)
 <use ../Silicio/Calibrazione.pdf>
-Package pdftex.def Info: ../Silicio/Calibrazione.pdf  used on input line 242.
-(pdftex.def)             Requested size: 360.00137pt x 245.09233pt.
- [4]
-<../Silicio/canvas.pdf, id=31, 569.12625pt x 275.0275pt>
+Package pdftex.def Info: ../Silicio/Calibrazione.pdf  used on input line 254.
+(pdftex.def)             Requested size: 270.00275pt x 183.82072pt.
+ [5]
+<../Silicio/canvas.pdf, id=33, 569.12625pt x 275.0275pt>
 File: ../Silicio/canvas.pdf Graphic file (type pdf)
 <use ../Silicio/canvas.pdf>
-Package pdftex.def Info: ../Silicio/canvas.pdf  used on input line 251.
-(pdftex.def)             Requested size: 450.0pt x 217.47078pt.
- [5 <../Silicio/Calibrazione.pdf, page is rotated 90 degrees>]
-<../Germanio/canvas.pdf, id=78, 569.12625pt x 275.0275pt>
+Package pdftex.def Info: ../Silicio/canvas.pdf  used on input line 263.
+(pdftex.def)             Requested size: 404.99725pt x 195.71992pt.
+ [6 <../Silicio/Calibrazione.pdf, page is rotated 90 degrees>]
+<../Germanio/canvas.pdf, id=80, 569.12625pt x 275.0275pt>
 File: ../Germanio/canvas.pdf Graphic file (type pdf)
 <use ../Germanio/canvas.pdf>
-Package pdftex.def Info: ../Germanio/canvas.pdf  used on input line 260.
-(pdftex.def)             Requested size: 450.0pt x 217.47078pt.
- [6 <../Silicio/canvas.pdf, page is rotated 90 degrees>] [7 <../Germanio/canvas
-.pdf, page is rotated 90 degrees>] (document.aux) ) 
+Package pdftex.def Info: ../Germanio/canvas.pdf  used on input line 273.
+(pdftex.def)             Requested size: 404.99725pt x 195.71992pt.
+
+[7 <../Silicio/canvas.pdf, page is rotated 90 degrees>] [8 <../Germanio/canvas.
+pdf, page is rotated 90 degrees>] (document.aux) ) 
 Here is how much of TeX's memory you used:
  29470 strings out of 479697
  752255 string characters out of 2867132
- 1269602 words of memory out of 3000000
- 46268 multiletter control sequences out of 15000+200000
- 409447 words of font info for 48 fonts, out of 3000000 for 9000
+ 1271071 words of memory out of 3000000
+ 46270 multiletter control sequences out of 15000+200000
+ 408840 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 122i,10n,124p,579b,1001s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\lyoko\AppData\Loc
-al\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/lyoko/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/lyo
-ko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/U
-sers/lyoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.
+ 122i,11n,124p,746b,1054s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\lyoko\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/lyoko/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/lyok
+o/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/U
+sers/lyoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.
 pfb><C:/Users/lyoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmmi10.pfb><C:/Users/lyoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmmi7.pfb><C:/Users/lyoko/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmr10.pfb><C:/Users/lyoko/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lyoko/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/lyoko/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/lyoko/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/lyoko/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/l
-yoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on document.pdf (7 pages, 200739 bytes).
+m/cmmi5.pfb><C:/Users/lyoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmmi7.pfb><C:/Users/lyoko/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb><C:/Users/lyoko/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lyoko/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/lyoko/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/lyoko/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lyoko/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on document.pdf (8 pages, 196922 bytes).
 PDF statistics:
- 214 PDF objects out of 1000 (max. 8388607)
+ 213 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
