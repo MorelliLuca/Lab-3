@@ -6,6 +6,8 @@
 \usepackage[italian]{babel}
 \usepackage{float}
 \textwidth=450pt\oddsidemargin=0pt
+\usepackage{geometry}
+\geometry{a4paper, top=2cm, bottom=2cm, left=2cm, right=2cm,  heightrounded, bindingoffset=5mm}
 %opening
 \title{Misura della caratteristica I-V di due diodi a giunzione p-n}
 \author{Cristina Caprioglio, Luca Morelli}
@@ -18,7 +20,7 @@
 \section{Scopo della prova}
 La prova consisteva nella misura delle caratteristiche I-V di due diodi a giunzione p-n, uno al Silicio e uno al Germanio. Abbiamo realizzato una serie di fit con ROOT in modo da ricavare i parametri caratteristici del diodo: la corrente inversa ``$  I_{0}$" e ``$\eta V_{T}$", il prodotto tra il fattore di idealità e l'equivalente della temperatura in volt. 
 \section{Procedura}
-	\begin{figure}
+	\begin{figure}[H]
 		\centering
 		\begin{circuitikz}
 			\draw
@@ -42,9 +44,8 @@ La prova consisteva nella misura delle caratteristiche I-V di due diodi a giunzi
 	\end{figure}
 
 
-Per prima cosa abbiamo eseguito la calibrazione della tensione misurata con l'oscilloscopio, mettendola in relazione con quella data dal multimetro. Per fare ciò abbiamo collegato l'oscilloscopio al punto C (\ref{fig:schema}) e abbiamo cortocircuitato i punti A-B per poi procedere a prendere 10 misure tra i 50 e i 760 mV. Per ogni misura abbiamo prima preso il valore dell'oscilloscopio e poi quello del multimetro.\\
-
-Spostando poi il potenziometro fuori dal circuito ne abbiamo regolato la resistenza a $ 500 \,\Omega $, per poi reinserirlo nella sua posizione iniziale. Abbiamo quindi inserito il diodo tra i punti A e B (\ref{fig:schema}), prima quello al Silicio e poi quello al Germanio, entrambi con il catodo nel punto A. Dopo aver spostato il probe dell'oscilloscopio nel punto D abbiamo effettuato 16 misure per il Silicio e 23 per il Germanio, agendo sul potenziometro per variare la tensione e leggendo poi la corrente dal multimetro. Infine, abbiamo fittato i dati raccolti per ottenere i parametri ricercati.
+Per prima cosa abbiamo eseguito la calibrazione della tensione misurata con l'oscilloscopio, mettendola in relazione con quella data dal multimetro. Per fare ciò abbiamo collegato l'oscilloscopio al punto C (figura 1) e abbiamo cortocircuitato i punti A-B per poi procedere a prendere 10 misure tra i 50 e i 760 mV. Per ogni misura abbiamo prima preso il valore dell'oscilloscopio e poi quello del multimetro.\\
+Spostando poi il potenziometro fuori dal circuito ne abbiamo regolato la resistenza a $ 500 \,\Omega $, per poi reinserirlo nella sua posizione iniziale. Abbiamo quindi inserito il diodo tra i punti A e B (figura 1), prima quello al Silicio e poi quello al Germanio, entrambi con il catodo nel punto A. Dopo aver spostato il probe dell'oscilloscopio nel punto D abbiamo effettuato 16 misure per il Silicio e 23 per il Germanio, agendo sul potenziometro per variare la tensione e leggendo poi la corrente dal multimetro. \\Infine, abbiamo fittato i dati raccolti per ottenere i parametri ricercati.
 \section{Materiali utilizzati}
 \begin{itemize}
 	\item Potenziometro da $ 1 \,k\Omega $
@@ -62,7 +63,7 @@ Spostando poi il potenziometro fuori dal circuito ne abbiamo regolato la resiste
 	\item Multimetro digitale ISO-TECH, IDM 105
 \end{itemize}
 \section{Misurazioni}
-La tabella (\ref{tab:strumenti}) di seguito riporta i valori relativi a fondo scala, risoluzione e precisione dei vari strumenti:
+La tabella (1) di seguito riporta i valori relativi a fondo scala, risoluzione e precisione dei vari strumenti:
 	\begin{table}[H]
 		\centering
 		\begin{tabular}{|c|c|c|c|}
@@ -99,7 +100,7 @@ $ \sigma_{Z} $ è l'errore sullo zero, in tal caso il fondo scala vale 10 mV.\\
 Invece $ \sigma_{L} $ è l'errore sulla lettura e in questo caso il fondo scala varia in base alla misura, mentre ``\#tacchette apprezzabili" é stato considerato 0.5 per tutte le misure.
 Per gli errori relativi al multimetro abbiamo preso la misura e moltiplicata rispettivamente per 0.3\% , 0.1\% o 0.4\%  in base al fondo scala usato, poi abbiamo arrotondato all'ordine di grandezza della risoluzione ed aggiunto due digit.
 \subsection{Calibrazione dell'oscilloscopio}
-La tabella a seguire (\ref{tab:calibrazione}) riporta le misure utilizzate per calibrare l'oscilloscopio: per ogni misura è riportato il fondo scala utilizzato poichè, come si può vedere in tabella \ref{tab:strumenti}, questo influenza la stima dell'errore. 
+La tabella a seguire (\ref{tab:calibrazione}) riporta le misure utilizzate per calibrare l'oscilloscopio: per ogni misura è riportato il fondo scala utilizzato poichè, come si può vedere in tabella (1), questo influenza la stima dell'errore. 
 	\begin{table}[H]
 		\centering
 	\begin{tabular}{|c|c|c|c|c|}
@@ -131,10 +132,8 @@ La tabella a seguire (\ref{tab:calibrazione}) riporta le misure utilizzate per c
 \caption{Punti sperimentali della calibrazione dell'oscilloscopio}
 \label{tab:calibrazione}
 \end{table}
-
-\pagebreak
 \subsection{Silicio}
-Nella seguente tabella (\ref{tab:silicio}) sono riportati i punti sperimentali acquisiti per la caratteristica I-V del diodo al Silicio, per ogni misura è riportato il fondo scala utilizzato poichè, come si può vedere in tabella \ref{tab:strumenti}, questo influenza la stima dell'errore.
+Nella seguente tabella (\ref{tab:silicio}) sono riportati i punti sperimentali acquisiti per la caratteristica I-V del diodo al Silicio, per ogni misura è riportato il fondo scala utilizzato poichè, come si può vedere in tabella (1), questo influenza la stima dell'errore.
 
 	\begin{table}[H]
 		\centering
@@ -179,7 +178,7 @@ Nella seguente tabella (\ref{tab:silicio}) sono riportati i punti sperimentali a
 		\label{tab:silicio}
 	\end{table}
 \subsection{Germanio}
-Nella tabella (\ref{tab:silicio}), sotto riportata, sono presentati i punti sperimentali acquisiti per la caratteristica I-V del diodo al Germanio, per ogni misura è riportato il fondo scala utilizzato poichè, come si può vedere in tabella \ref{tab:strumenti}, questo influenza la stima dell'errore.
+Nella tabella (\ref{tab:germanio}), sotto riportata, sono presentati i punti sperimentali acquisiti per la caratteristica I-V del diodo al Germanio, per ogni misura è riportato il fondo scala utilizzato poichè, come si può vedere in tabella (1), questo influenza la stima dell'errore.
 	\begin{table}[H]
 		\centering
 	\begin{tabular}{|c|c|c|c|c|}
@@ -238,7 +237,7 @@ Nella tabella (\ref{tab:silicio}), sotto riportata, sono presentati i punti sper
 \end{table}
 \section{Elaborazione dati e risultati}
 
-La prima fase di elaborazione dati consiste nella verifica della calibrazione dell'oscilloscopio, questa ci premette di valutare la miglior stima dell'errore su quest'ultimo. In seguito abbiamo proseguito fittando i dati sperimentali delle tabelle (formula \ref{tab:silicio}) e (formula \ref{tab:germanio}) per ottenere i parametri caratteristici dei diodi con relativi errori, ottenuti tramite somma in quadratura per via dei dati non indipendenti tra loro. Per ogni diodo sono abbiamo effettuato due fit: uno esponenziale (\ref{fitexp}) e uno lineare (\ref{fitlin}) pesato utilizzando i logaritmi delle correnti misurate.
+La prima fase di elaborazione dati consiste nella verifica della calibrazione dell'oscilloscopio, questa ci ha premesso di valutare la miglior stima dell'errore su quest'ultimo. In seguito abbiamo proseguito fittando i dati sperimentali delle tabelle (formula \ref{tab:silicio}) e (formula \ref{tab:germanio}) per ottenere i parametri caratteristici dei diodi con relativi errori, ottenuti tramite somma in quadratura per tenendo conto della presenza di dati non indipendenti tra loro. Per ogni diodo abbiamo effettuato due fit: uno esponenziale (figura \ref{fitexp}) e uno lineare (figura \ref{fitlin}) pesato utilizzando i logaritmi delle correnti misurate.
 \begin{equation}
 	I(V)=I_0(e^{\frac{V}{\eta V_T}}-1)
 	\label{fitexp}
@@ -252,7 +251,7 @@ Infine abbiamo riportato i risultati su appositi grafici assieme ai punti sperim
 Il fit dei dati in tabella (\ref{tab:calibrazione}), riportato nel grafico in figura \ref{fig:calibrazione}, ha evidenziato un chiaro comportamento lineare con pendenza $1.03662\pm0.0004$ e intercetta pari a $(0.4\pm0.4)mV$.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.6\linewidth]{../Silicio/Calibrazione}
+	\includegraphics[width=0.4\linewidth]{../Silicio/Calibrazione}
 	\caption{Retta di calibrazione delle tensioni dell'oscilloscopio}
 	\label{fig:calibrazione}
 \end{figure}
@@ -268,7 +267,7 @@ Dai dati in tabella (\ref{tab:silicio}), come già spiegato, abbiamo effettuato 
 Osserviamo che le misure ottenute dai due fit sono compatibili tra loro seppur il fit lineare si riveli più preciso riuscendo a stimare con un errore minore il parametro $I_0$.
 I parametri misurati si rivelano in questo caso in accordo con quelli attesi.
 \subsection{Germanio}
-I fit effettuati e riportati graficamente in figura (\ref{fig:germanio}) hanno concesso di stimare $I_0=(4\pm1)\mu A$ e $\eta V_T=(43\pm5)mV$ (fit esponenziale) e $I_0=(2.6\pm0.3)\mu A$ e $\eta V_T=(40\pm3)mV$ (fit lineare). Anche in questo caso per entrambi i fit non abbiamo usato tutti i punti sperimentali raccolti. In questo caso la deviazione dal comportamento ideale è ancor più evidente che con il diodo al Silicio, come si può apprezzare negli ultimi punti rappresentati, seppur non utilizzati, del grafico semilogaritimico in figura(\ref{fig:germanio}).
+I fit effettuati e riportati graficamente in figura (\ref{fig:germanio}) hanno concesso di stimare $I_0=(4\pm1)\mu A$ e $\eta V_T=(43\pm5)mV$ (fit esponenziale) e $I_0=(2.6\pm0.3)\mu A$ e $\eta V_T=(40\pm3)mV$ (fit lineare). Anche in questo caso per entrambi i fit non abbiamo usato tutti i punti sperimentali raccolti. La deviazione dal comportamento ideale è ancor più evidente che con il diodo al Silicio, come si può apprezzare negli ultimi punti rappresentati, seppur non utilizzati, del grafico semilogaritimico in figura(\ref{fig:germanio}).
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\linewidth]{../Germanio/canvas}
