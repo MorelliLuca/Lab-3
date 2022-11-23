@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.19)  22 NOV 2022 21:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.19)  23 NOV 2022 19:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -632,7 +632,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 [1
 
 {C:/Users/crica/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-Overfull \hbox (58.75095pt too wide) in paragraph at lines 104--130
+Overfull \hbox (58.75095pt too wide) in paragraph at lines 105--131
  [][] 
  []
 
@@ -640,19 +640,19 @@ Overfull \hbox (58.75095pt too wide) in paragraph at lines 104--130
 <../Silicio/Calibrazione.pdf, id=28, 569.12625pt x 387.4475pt>
 File: ../Silicio/Calibrazione.pdf Graphic file (type pdf)
 <use ../Silicio/Calibrazione.pdf>
-Package pdftex.def Info: ../Silicio/Calibrazione.pdf  used on input line 254.
+Package pdftex.def Info: ../Silicio/Calibrazione.pdf  used on input line 255.
 (pdftex.def)             Requested size: 270.00275pt x 183.82072pt.
  [5]
 <../Silicio/canvas.pdf, id=33, 569.12625pt x 275.0275pt>
 File: ../Silicio/canvas.pdf Graphic file (type pdf)
 <use ../Silicio/canvas.pdf>
-Package pdftex.def Info: ../Silicio/canvas.pdf  used on input line 263.
+Package pdftex.def Info: ../Silicio/canvas.pdf  used on input line 264.
 (pdftex.def)             Requested size: 404.99725pt x 195.71992pt.
  [6 <../Silicio/Calibrazione.pdf, page is rotated 90 degrees>]
 <../Germanio/canvas.pdf, id=80, 569.12625pt x 275.0275pt>
 File: ../Germanio/canvas.pdf Graphic file (type pdf)
 <use ../Germanio/canvas.pdf>
-Package pdftex.def Info: ../Germanio/canvas.pdf  used on input line 273.
+Package pdftex.def Info: ../Germanio/canvas.pdf  used on input line 274.
 (pdftex.def)             Requested size: 404.99725pt x 195.71992pt.
 
 [7 <../Silicio/canvas.pdf, page is rotated 90 degrees>] [8 <../Germanio/canvas.
@@ -664,7 +664,7 @@ Here is how much of TeX's memory you used:
  47848 multiletter control sequences out of 15000+600000
  408840 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,11n,118p,751b,1054s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 115i,11n,118p,749b,1054s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\crica\AppData\Loca
 l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/crica/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/cric
@@ -679,7 +679,7 @@ eX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/crica/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/crica/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/crica/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on document.pdf (8 pages, 206971 bytes).
+Output written on document.pdf (8 pages, 207289 bytes).
 PDF statistics:
  224 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
