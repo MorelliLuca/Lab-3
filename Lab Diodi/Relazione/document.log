@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.11.24)  24 NOV 2022 00:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.11.24)  24 NOV 2022 20:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -495,25 +495,25 @@ Package pdftex.def Info: ../Silicio/Calibrazione.pdf  used on input line 254.
 <../Silicio/canvas.pdf, id=27, 569.12625pt x 275.0275pt>
 File: ../Silicio/canvas.pdf Graphic file (type pdf)
 <use ../Silicio/canvas.pdf>
-Package pdftex.def Info: ../Silicio/canvas.pdf  used on input line 263.
-(pdftex.def)             Requested size: 422.52058pt x 204.18861pt.
+Package pdftex.def Info: ../Silicio/canvas.pdf  used on input line 264.
+(pdftex.def)             Requested size: 375.57784pt x 181.50192pt.
  [4 <../Silicio/Calibrazione.pdf, page is rotated 90 degrees> <../Silicio/canvas.pdf, page is rotated 90 degrees>]
 <../Germanio/canvas.pdf, id=118, 569.12625pt x 275.0275pt>
 File: ../Germanio/canvas.pdf Graphic file (type pdf)
 <use ../Germanio/canvas.pdf>
-Package pdftex.def Info: ../Germanio/canvas.pdf  used on input line 273.
-(pdftex.def)             Requested size: 422.52058pt x 204.18861pt.
+Package pdftex.def Info: ../Germanio/canvas.pdf  used on input line 275.
+(pdftex.def)             Requested size: 375.57784pt x 181.50192pt.
  [5 <../Germanio/canvas.pdf, page is rotated 90 degrees>] (/home/lyokol/Scrivania/Laboratorio/Lab 3/Lab Diodi/Relazione/document.aux) ) 
 Here is how much of TeX's memory you used:
  25137 strings out of 481239
  613456 string characters out of 5920376
- 986182 words of memory out of 5000000
+ 986181 words of memory out of 5000000
  40101 multiletter control sequences out of 15000+600000
  537748 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,11n,79p,854b,1040s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on "/home/lyokol/Scrivania/Laboratorio/Lab 3/Lab Diodi/Relazione/document.pdf" (5 pages, 185210 bytes).
+Output written on "/home/lyokol/Scrivania/Laboratorio/Lab 3/Lab Diodi/Relazione/document.pdf" (5 pages, 185652 bytes).
 PDF statistics:
  205 PDF objects out of 1000 (max. 8388607)
  106 compressed objects within 2 object streams

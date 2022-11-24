@@ -257,10 +257,11 @@ Il fit dei dati in tabella (\ref{tab:calibrazione}), riportato nel grafico in fi
 \end{figure}
 Questa misura ci ha permesso di considerare trascurabili eventuali errori dovuti alla calibrazione dello strumento poichè questi risultano chiaramente inferiori agli errori strumentali da noi valutati e riportati nelle tabelle (\ref{tab:silicio}) e (\ref{tab:germanio}).
 \subsection{Silicio}
-Dai dati in tabella (\ref{tab:silicio}), come già spiegato, abbiamo effettuato due fit, riportati graficamente in figura (\ref{fig:silicio}): quello esponenziale ci ha concesso di stimare $I_0=(5\pm5)mA$ e $\eta V_T=(51\pm5)mV$, mentre quello lineare ha restituito valori di $I_0=(7.2\pm0.7)mA$ e $\eta V_T=(53\pm4)mV$. Per entrambi i fit non abbiamo utilizzato tutti i punti sperimentali raccolti, ma abbiamo valutato quale fosse il range di fit migliore alla luce del fatto che dopo un certo valore di soglia il comportamento caratteristico muta dalla legge ideale, come è possibile apprezzare negli ultimi punti rappresentati, seppur non utilizzati, del grafico semilogaritimico in figura(\ref{fig:silicio}). 
+Dai dati in tabella (\ref{tab:silicio}), come già spiegato, abbiamo effettuato due fit, riportati graficamente in figura (\ref{fig:silicio}): quello esponenziale ci ha concesso di stimare $I_0=(5\pm5)nA$ e $\eta V_T=(51\pm5)mV$, mentre quello lineare ha restituito valori di $I_0=(7.2\pm0.7)nA$ e $\eta V_T=(53\pm4)mV$. Per entrambi i fit non abbiamo utilizzato tutti i punti sperimentali raccolti, ma abbiamo valutato quale fosse il range di fit migliore alla luce del fatto che dopo un certo valore di soglia il comportamento caratteristico muta dalla legge ideale, come è possibile apprezzare negli ultimi punti rappresentati, seppur non utilizzati, del grafico semilogaritimico in figura(\ref{fig:silicio}). 
+Per il fit esponenziale abbiamo utilizzato il range $[400mV-650mV]$ mentre per il fit lineare il range $[400mV-600mV]$.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\linewidth]{../Silicio/canvas}
+	\includegraphics[width=0.8\linewidth]{../Silicio/canvas}
 	\caption{Caratteristica I-V del diodo al Silicio: a sinistra sono riportati i punti nel range utilizzato per effettuare il fit esponenziale mentre a destra sono riportati tutti i punti sperimentali in scala semilogaritmica con fit lineare}
 	\label{fig:silicio}
 \end{figure}
@@ -268,9 +269,10 @@ Osserviamo che le misure ottenute dai due fit sono compatibili tra loro seppur i
 I parametri misurati si rivelano in questo caso in accordo con quelli attesi.
 \subsection{Germanio}
 I fit effettuati e riportati graficamente in figura (\ref{fig:germanio}) hanno concesso di stimare $I_0=(4\pm1)\mu A$ e $\eta V_T=(43\pm5)mV$ (fit esponenziale) e $I_0=(2.6\pm0.3)\mu A$ e $\eta V_T=(40\pm3)mV$ (fit lineare). Anche in questo caso per entrambi i fit non abbiamo usato tutti i punti sperimentali raccolti. La deviazione dal comportamento ideale è ancor più evidente che con il diodo al Silicio, come si può apprezzare negli ultimi punti rappresentati, seppur non utilizzati, del grafico semilogaritimico in figura(\ref{fig:germanio}).
+Per il fit esponenziale abbiamo utilizzato il range $[50mV-150mV]$ mentre per il fit lineare il range $[60mV-170mV]$.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\linewidth]{../Germanio/canvas}
+	\includegraphics[width=0.8\linewidth]{../Germanio/canvas}
 	\caption{Caratteristica I-V del diodo al Germanio: a sinistra sono riportati i punti nel range utilizzato per effettuare il fit esponenziale mentre a destra sono riportati tutti i punti sperimentali in scala semilogaritmica con fit lineare}
 	\label{fig:germanio}
 \end{figure}
@@ -279,5 +281,5 @@ Notiamo però che il parametro misurato $\eta V_T$ non risulta in accordo con qu
 \section*{Conclusioni}
 Le misure della caratteristica I-V dei due diodi si sono rivelate qualitativamente in accordo con la teoria riproducendo la legge del diodo ideale e manifestando anche una minor aderenza con questa a tensioni più alte, come è previsto dalla caratteristica di un diodo reale. 
 
-Per il diodo al Silicio abbiamo ottenuto due misure di ogni parametro caratteristico, $I_0=(5\pm5)mA$ e $\eta V_T=(51\pm5)mV$ con fit esponenziale, e $I_0=(7.2\pm0.7)mA$ e $\eta V_T=(53\pm4)mV$ con fit lineare, in accordo tra di loro ed entrambe in accordo con i valori attesi. Per quanto riguarda il diodo al Germanio il fit esponenziale ha restituito $I_0=(4\pm1)\mu A$ e $\eta V_T=(43\pm5)mV$, in accordo con le stime del fit lineare $I_0=(2.6\pm0.3)\mu A$ e $\eta V_T=(40\pm3)mV$, ma entrambi in disaccordo con i valori attesi. Questa discrepanza è dovuta alle variazioni di temperatura della giunzione che fanno variare il valore di $\eta V_T$, combinate con gli errori strumentali.
+Per il diodo al Silicio abbiamo ottenuto due misure di ogni parametro caratteristico, $I_0=(5\pm5)nA$ e $\eta V_T=(51\pm5)mV$ con fit esponenziale, e $I_0=(7.2\pm0.7)nA$ e $\eta V_T=(53\pm4)mV$ con fit lineare, in accordo tra di loro ed entrambe in accordo con i valori attesi. Per quanto riguarda il diodo al Germanio il fit esponenziale ha restituito $I_0=(4\pm1)\mu A$ e $\eta V_T=(43\pm5)mV$, in accordo con le stime del fit lineare $I_0=(2.6\pm0.3)\mu A$ e $\eta V_T=(40\pm3)mV$, ma entrambi in disaccordo con i valori attesi. Questa discrepanza è dovuta alle variazioni di temperatura della giunzione che fanno variare il valore di $\eta V_T$, combinate con gli errori strumentali.
 \end{document}
