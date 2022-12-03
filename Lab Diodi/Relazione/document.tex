@@ -96,16 +96,16 @@ dove $\sigma_{C}= (misura\cdot0.03) $ è l'errore del costruttore.
 \begin{equation*}
 	\sigma_{L}=\sigma_{Z}=\frac{fondo \:scala}{5}\cdot\#tacchette \:apprezzabili
 \end{equation*}
-$ \sigma_{Z} $ è l'errore sullo zero, in tal caso il fondo scala vale 10 mV.\\
+$ \sigma_{Z} $ è l'errore sullo zero, in tal caso il fondo scala vale 10 mV/div.\\
 Invece $ \sigma_{L} $ è l'errore sulla lettura e in questo caso il fondo scala varia in base alla misura, mentre ``\#tacchette apprezzabili" é stato considerato 0.5 per tutte le misure.
 Per gli errori relativi al multimetro abbiamo preso la misura e moltiplicata rispettivamente per 0.3\% , 0.1\% o 0.4\%  in base al fondo scala usato, poi abbiamo arrotondato all'ordine di grandezza della risoluzione ed aggiunto due digit.
 \subsection{Calibrazione dell'oscilloscopio}
 La tabella a seguire (\ref{tab:calibrazione}) riporta le misure utilizzate per calibrare l'oscilloscopio: per ogni misura è riportato il fondo scala utilizzato poichè, come si può vedere in tabella (1), questo influenza la stima dell'errore. 
 	\begin{table}[H]
 		\centering
-	\begin{tabular}{|c|c|c|c|c|}
+	\begin{tabular}{|c|c|c|c|}
 		\hline
-		Tensione oscilloscopio (mV)& Fondo scala oscillos. (mV) & Tensione multimetro (mV) & Fondo scala mult. (mV) \\
+		Tensione oscilloscopio (mV)& Fondo scala oscillos. (mV/div) & Tensione multimetro (mV) & Fondo scala mult. (mV) \\
 		\hline
 		$ 50\pm 2 $ &$ 10 $ & $ 48.2\pm 0.3 $ &400\\
 		\hline
@@ -137,9 +137,9 @@ Nella seguente tabella (\ref{tab:silicio}) sono riportati i punti sperimentali a
 
 	\begin{table}[H]
 		\centering
-	\begin{tabular}{|c|c|c|c|c|}
+	\begin{tabular}{|c|c|c|c|}
 		\hline
-		Tensione oscilloscopio (mV)& Fondo scala (mV) & Corrente multimetro (mA) &Fondo scala (mA)\\
+		Tensione oscilloscopio (mV)& Fondo scala (mV/div) & Corrente multimetro (mA) &Fondo scala (mA)\\
 		\hline
 		$ 420\pm 20 $ &$ 100 $ & $ 0.016\pm 0.002 $ &4\\
 		\hline
@@ -181,9 +181,9 @@ Nella seguente tabella (\ref{tab:silicio}) sono riportati i punti sperimentali a
 Nella tabella (\ref{tab:germanio}), sotto riportata, sono presentati i punti sperimentali acquisiti per la caratteristica I-V del diodo al Germanio, per ogni misura è riportato il fondo scala utilizzato poichè, come si può vedere in tabella (1), questo influenza la stima dell'errore.
 	\begin{table}[H]
 		\centering
-	\begin{tabular}{|c|c|c|c|c|}
+	\begin{tabular}{|c|c|c|c|}
 		\hline
-		Tensione oscilloscopio (mV)& Fondo scala (mV) & Corrente multimetro (mA) &Fondo scala (mA)\\
+		Tensione oscilloscopio (mV)& Fondo scala (mV/div) & Corrente multimetro (mA) &Fondo scala (mA)\\
 		\hline
 		$ 70\pm 6 $ &$ 50 $ & $ 0.014\pm 0.002 $ &4 \\
 		\hline
