@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.19)  3 DEC 2022 13:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.19)  4 DEC 2022 18:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -631,46 +631,46 @@ italian.ldf    on input line 15.
 [1
 
 {C:/Users/crica/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-Overfull \hbox (11.97311pt too wide) in paragraph at lines 100--169
+Overfull \hbox (11.97311pt too wide) in paragraph at lines 113--182
  [][] 
  []
 
 [3]
-Overfull \hbox (11.97311pt too wide) in paragraph at lines 176--245
+Overfull \hbox (11.97311pt too wide) in paragraph at lines 189--258
  [][] 
  []
 
 [4] [5]
 
 LaTeX Warning: Reference `tab:calibrazione' on page 6 undefined on input line 2
-61.
+74.
 
 
 LaTeX Warning: Reference `fig:calibrazione' on page 6 undefined on input line 2
-61.
+74.
 
 Excluding 'comment' comment.
 
-LaTeX Warning: Reference `tab:silicio' on page 6 undefined on input line 270.
+LaTeX Warning: Reference `tab:silicio' on page 6 undefined on input line 283.
 
 
-LaTeX Warning: Reference `tab:germanio' on page 6 undefined on input line 270.
+LaTeX Warning: Reference `tab:germanio' on page 6 undefined on input line 283.
 
 
-LaTeX Warning: Reference `tab:silicio' on page 6 undefined on input line 272.
+LaTeX Warning: Reference `tab:silicio' on page 6 undefined on input line 285.
 
 
-LaTeX Warning: Reference `fig:silicio' on page 6 undefined on input line 272.
+LaTeX Warning: Reference `fig:silicio' on page 6 undefined on input line 285.
 
 
-LaTeX Warning: Reference `fig:silicio' on page 6 undefined on input line 272.
+LaTeX Warning: Reference `fig:silicio' on page 6 undefined on input line 285.
 
 Excluding 'comment' comment.
 
-LaTeX Warning: Reference `fig:germanio' on page 6 undefined on input line 284.
+LaTeX Warning: Reference `fig:germanio' on page 6 undefined on input line 297.
 
 
-LaTeX Warning: Reference `fig:germanio' on page 6 undefined on input line 284.
+LaTeX Warning: Reference `fig:germanio' on page 6 undefined on input line 297.
 
 Excluding 'comment' comment. [6] [7] (document.aux)
 
@@ -678,13 +678,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 30066 strings out of 478659
- 770620 string characters out of 2845919
- 1315969 words of memory out of 3000000
- 47877 multiletter control sequences out of 15000+600000
+ 30165 strings out of 478659
+ 773297 string characters out of 2845919
+ 1317126 words of memory out of 3000000
+ 47976 multiletter control sequences out of 15000+600000
  409148 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,11n,118p,975b,1050s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 115i,11n,118p,975b,1041s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\crica\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Users/crica/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/crica/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -701,7 +701,7 @@ crica/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
 amsfonts/cm/cmr7.pfb><C:/Users/crica/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/cm/cmsy10.pfb><C:/Users/crica/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on document.pdf (7 pages, 177803 bytes).
+Output written on document.pdf (7 pages, 177662 bytes).
 PDF statistics:
  99 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -23,19 +23,32 @@ La prova consisteva nella misura delle caratteristiche in uscita di un transisto
 		\centering
 		\begin{circuitikz}
 			\draw
-			(0,4) node[above]{$Ground$} to[short, *-]
-			(0,2) to[potentiometer, -, l=1$ k\Omega $] (2,2) 
-			(2.5,0) node[below]{$B$} to[empty diode, *-*] (1.25,0)node[below]{$A$}--(0,0)--(0,2)
-			(2,4) node[above]{$+5V$} to[short, *-] (2,2)
+			(0,6) node[above]{$Ground$} to[short, *-]
+			(0,6)--(0,5) to[potentiometer, mirror, l=1$ k\Omega $] (4,5) 
+			(1,6) node[above]{$+5V$} to[short, *-] (4,6)--(4,5)
 			;
-			\draw [<-]
-			(1,1.5)--(1,1)--(2,1);
+			\draw 
+			(2,4.45)--(5,4.45);
 			\draw
-			(2,1)--(2.5,1) node[above]{$C$} to[short, *-] (3,1)
-			to[short, -*] (3, 3.5)node[above]{$(Rosso)$} (3.5, 4)node[above]{$Multimetro$}
+			(5,4.45) node[right]{$A$} to[short, *-] (5, 4.45)
 			;
 			\draw
-			(4,3.5)node[above]{$(Nero)$} to[short, *-] (4,0)--(3.5,0)node[below]{$D$}to[short, *-](2.5,0)
+			(5,4.03) node[right]{$C$} to[short, *-] (5, 4.03)--(2.49,4.03)
+			(2.5,3.5)to[Tpnp, mirror](2.5,3)
+			;
+			\draw
+			(2.5,2.5)node[right]{$E$} to[short, *-](0,2.5)
+			(5,1.55)node[right]{$D$} to[short, *-](5,1.55)
+			(1.65,3.26)--(1.65,2)--(5,2) node[right]{$B$} to[short, *-] (5,2)
+			;
+			\draw 
+			(5,1.55)--(2.75,1.55);
+			\draw
+			(1,1) to [potentiometer, l_=100$ k\Omega $] (4.5, 1)
+			;
+			\draw
+			(1,1)--(1,6)
+			(4.5,1)--(4.5,0)--(0,0)--(0,6)
 			;
 		\end{circuitikz}
 	\label{fig:schema}
