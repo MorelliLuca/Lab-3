@@ -105,7 +105,7 @@ dove $\sigma_{C}= (misura\cdot0.03) $ è l'errore del costruttore.
 $ \sigma_{Z} $ è l'errore sullo zero, in tal caso il fondo scala vale 10 mV/div.\\
 Invece $ \sigma_{L} $ è l'errore sulla lettura e in questo caso il fondo scala varia in base alla misura, mentre ``\#tacchette apprezzabili" é stato considerato 0.5 per tutte le misure.
 Per gli errori relativi al multimetro abbiamo preso la misura e moltiplicata rispettivamente per 0.3\% , 0.1\% o 0.4\%  in base al fondo scala usato, poi abbiamo arrotondato all'ordine di grandezza della risoluzione ed aggiunto due digit.
-\subsection{Corrente a $ 200\,\mu A $}
+\subsection{Corrente a $ -200\,\mu A $}
 Nella seguente tabella (\ref{tab:200muA}) sono riportati i punti sperimentali acquisiti per la caratteristica in uscita del transistor con corrente di base $ I_{B}= -200\,\mu A $. Per ogni misura è riportato il fondo scala utilizzato poichè, come si può vedere in tabella \ref{tab:strumenti}, questo influenza la stima dell'errore.
 %errori multimetro
 	\begin{table}[H]
@@ -182,7 +182,7 @@ Nella seguente tabella (\ref{tab:200muA}) sono riportati i punti sperimentali ac
 		\caption{Punti acquisiti per la caratteristica in uscita con corrente di base $ I_{B}= -200\, \mu A $}
 		\label{tab:200muA}
 	\end{table}
-\subsection{Corrente a $ 100\,\mu A $}
+\subsection{Corrente a $ -100\,\mu A $}
 Nella tabella (\ref{tab:100muA}), sotto riportata, sono presentati i punti sperimentali acquisiti per la caratteristica in uscita del transistor con corrente di base $ I_{B}= -100\,\mu A $. Per ogni misura è riportato il fondo scala utilizzato poichè, come si può vedere in tabella \ref{tab:strumenti}, questo influenza la stima dell'errore.
 	\begin{table}[H]
 		\centering
@@ -260,53 +260,48 @@ Nella tabella (\ref{tab:100muA}), sotto riportata, sono presentati i punti speri
 \end{table}
 \section{Elaborazione dati e risultati}
 
-La prima fase di elaborazione dati consiste nella verifica della calibrazione dell'oscilloscopio, questa ci premette di valutare la miglior stima dell'errore su quest'ultimo. In seguito abbiamo proseguito fittando i dati sperimentali delle tabelle (formula \ref{tab:200muA}) e (formula \ref{tab:100muA}) per ottenere i parametri caratteristici dei diodi con relativi errori, ottenuti tramite somma in quadratura per via dei dati non indipendenti tra loro. Per ogni diodo sono abbiamo effettuato due fit: uno esponenziale (\ref{fitexp}) e uno lineare (\ref{fitlin}) pesato utilizzando i logaritmi delle correnti misurate.
+Abbiamo fittato i dati ricavati dalle tabelle (\ref{tab:200muA}) e (\ref{tab:100muA}), eseguendo un fit lineare pesato secondo la formula: 
 \begin{equation}
-	I(V)=I_0(e^{\frac{V}{\eta V_T}}-1)
-	\label{fitexp}
-\end{equation}
-\begin{equation}
-	Y=a+bX \quad con\quad Y=V,\: X=lnI, \:a=-\eta V_{T}lnI_{0},\: b=\eta V_{T}%Siamo sicuri sia giusta?
+	V_{CE}=a+bI_{C} \quad con\quad \:a\equiv tensione\, di\, Early \,V_{A},\:\: b\equiv\frac{\Delta V_{CE}}{\Delta I_{C}}
 	\label{fitlin}
 \end{equation}
-Infine abbiamo riportato i risultati su appositi grafici assieme ai punti sperimentali in modo da costruire graficamente la curva I-V. 
-  \subsection{Calibrazione dell'oscilloscopio}
-Il fit dei dati in tabella (\ref{tab:calibrazione}), riportato nel grafico in figura \ref{fig:calibrazione}, ha evidenziato un chiaro comportamento lineare con pendenza $1.03662\pm0.0004$ e intercetta pari a $(0.4\pm0.4)mV$.
-
+Dai fit abbiamo ottenuto i parametri caratteristici del transistor alle diverse correnti e abbiamo quindi riportato i risultati su due grafici, che abbiamo poi unito in un unico multigrafo, insieme ai punti sperimentali in modo da costruire le due curve I-V per i due valori di corrente analizzati. Per quanto riguarda gli errori associati ai parametri li abbiamo ottenuti tramite somma in quadratura. Vorremmo far presente che i grafici sono stati rappresentati nel primo quadrante, quindi con valori di tensioni e di correnti positivi, nonostante i valori di entrambe fossero negative perchè così il grafico è più semplice da visualizzare.
+  \subsection{Corrente a $ -200\,\mu A $}
+Dal fit dei dati in tabella (\ref{tab:200muA}), riportato nel grafico in figura \ref{fig:corrente 200}, abbiamo ottenuto come tensione di Early $ V_{A}=-12020\pm390\ mV $, mentre la resistenza in uscita è risultata $ \frac{\Delta V_{CE}}{\Delta I _{C}}=414\pm12\ \Omega$. Per il suo inverso, ovvero la conduttanza, abbiamo ottenuto $ g=(241.8\pm6.8)\cdot 10^{-5} A/V $. Si può chiaramente vedere sia l'andamento lineare, con inclinazione dovuto all'effetto Early, che il gomito della curva quando la corrente inizia a variare esponenzialmente.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.6\linewidth]{../100 muA/c1}
-	\caption{Retta di calibrazione delle tensioni dell'oscilloscopio}
-	\label{fig:calibrazione}
-\end{figure}	
-
-Questa misura ci ha permesso di considerare trascurabili eventuali errori dovuti alla calibrazione dello strumento poichè questi risultano chiaramente inferiori agli errori strumentali da noi valutati e riportati nelle tabelle (\ref{tab:silicio}) e (\ref{tab:germanio}).
-\subsection{Silicio}
-Dai dati in tabella (\ref{tab:silicio}), come già spiegato, abbiamo effettuato due fit, riportati graficamente in figura (\ref{fig:silicio}): quello esponenziale ci ha concesso di stimare $I_0=(5\pm5)mA$ e $\eta V_T=(51\pm5)mV$, mentre quello lineare ha restituito valori di $I_0=(7.2\pm0.7)mA$ e $\eta V_T=(53\pm4)mV$. Per entrambi i fit non abbiamo utilizzato tutti i punti sperimentali raccolti, ma abbiamo valutato quale fosse il range di fit migliore alla luce del fatto che dopo un certo valore di soglia il comportamento caratteristico muta dalla legge ideale, come è possibile apprezzare negli ultimi punti rappresentati, seppur non utilizzati, del grafico semilogaritimico in figura(\ref{fig:silicio}). 
-
+	\includegraphics[width=0.9\linewidth]{../200 muA/c1}
+	\caption{Caratteristiche in uscita del transistor con corrente di base a -200 $ \mu A $}
+	\label{fig:corrente 200}
+\end{figure}
+\subsection{Corrente a $ -100\,\mu A $}
+Dal fit dei dati in tabella (\ref{tab:100muA}), riportato nel grafico in figura \ref{fig:corrente 100}, abbiamo ottenuto come tensione di Early $ V_{A}=-16130\pm510\ mV $, mentre la resistenza in uscita è risultata $ \frac{\Delta V_{CE}}{\Delta I _{C}}=985\pm28\ \Omega$. Per il suo inverso, ovvero la conduttanza, abbiamo ottenuto $ g=(101.5\pm2.9)\cdot 10^{-5} A/V $. Si può chiaramente vedere sia l'andamento lineare, con inclinazione dovuto all'effetto Early, che il gomito della curva quando la corrente inizia a variare esponenzialmente.
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.9\linewidth]{../200 muA/c1}
-		\caption{Caratteristica I-V del diodo al Silicio: a sinistra sono riportati i punti nel range utilizzato per effettuare il fit esponenziale mentre a destra sono riportati tutti i punti sperimentali in scala semilogaritmica con fit lineare}
-		\label{fig:silicio}
+		\includegraphics[width=0.9\linewidth]{../100 muA/c1}
+		\caption{Caratteristiche in uscita del transistor con corrente di base a -100 $ \mu A $}
+		\label{fig:corrente 100}
 	\end{figure}
-
-Osserviamo che le misure ottenute dai due fit sono compatibili tra loro seppur il fit lineare si riveli più preciso riuscendo a stimare con un errore minore il parametro $I_0$.
-I parametri misurati si rivelano in questo caso in accordo con quelli attesi.
-\subsection{Germanio}
-I fit effettuati e riportati graficamente in figura (\ref{fig:germanio}) hanno concesso di stimare $I_0=(4\pm1)\mu A$ e $\eta V_T=(43\pm5)mV$ (fit esponenziale) e $I_0=(2.6\pm0.3)\mu A$ e $\eta V_T=(40\pm3)mV$ (fit lineare). Anche in questo caso per entrambi i fit non abbiamo usato tutti i punti sperimentali raccolti. In questo caso la deviazione dal comportamento ideale è ancor più evidente che con il diodo al Silicio, come si può apprezzare negli ultimi punti rappresentati, seppur non utilizzati, del grafico semilogaritimico in figura(\ref{fig:germanio}).
-
+\subsection{Multigrafo con entrambe le curve}
+Di seguito è riportato in figura il multigrafo (\ref{fig:multigrafo}) contenente entrambe le curve. Da quest'ultimo abbiamo ricavato una stima del guadagno di corrente misurando per ogni valore di tensione preso la differenza di corrente tra i punti e diviso per la differenza delle correnti di base secondo la formula:
+\begin{equation}
+	\beta=\frac{\Delta I_{C}}{\Delta I_{B}}
+\end{equation}
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.9\linewidth]{../c1}
-		\caption{Caratteristica I-V del diodo al Germanio: a sinistra sono riportati i punti nel range utilizzato per effettuare il fit esponenziale mentre a destra sono riportati tutti i punti sperimentali in scala semilogaritmica con fit lineare}
-		\label{fig:germanio}
+		\caption{Caratteristiche in uscita del transistor. In rosso per la corrente di base a -200 $ \mu A $ e in blu per la corrente di base a -100 $ \mu A $}
+		\label{fig:multigrafo}
 	\end{figure}
-
-Anche in questo caso osserviamo che le misure ottenute dai due fit sono compatibili tra loro seppur il fit lineare si riveli più preciso riuscendo a stimare con un errore minore il parametro $I_0$.
-Notiamo però che il parametro misurato $\eta V_T$ non risulta in accordo con quello atteso; questo è dovuto a vari fattori tra cui l'impossibilità di misurare la temperatura di operazione della giunzione che varia il valore di questo parametro.
+Da una media di 20 misure prese nella zona con andamento lineare abbiamo ottenuto $ \beta =159\pm 13 $, dove per l'errore abbiamo usato la deviazione standard.
 \section*{Conclusioni}
-Le misure della caratteristica I-V dei due diodi si sono rivelate qualitativamente in accordo con la teoria riproducendo la legge del diodo ideale e manifestando anche una minor aderenza con questa a tensioni più alte, come è previsto dalla caratteristica di un diodo reale. 
-
-Per il diodo al Silicio abbiamo ottenuto due misure di ogni parametro caratteristico, $I_0=(5\pm5)mA$ e $\eta V_T=(51\pm5)mV$ con fit esponenziale, e $I_0=(7.2\pm0.7)mA$ e $\eta V_T=(53\pm4)mV$ con fit lineare, in accordo tra di loro ed entrambe in accordo con i valori attesi. Per quanto riguarda il diodo al Germanio il fit esponenziale ha restituito $I_0=(4\pm1)\mu A$ e $\eta V_T=(43\pm5)mV$, in accordo con le stime del fit lineare $I_0=(2.6\pm0.3)\mu A$ e $\eta V_T=(40\pm3)mV$, ma entrambi in disaccordo con i valori attesi. Questa discrepanza è dovuta alle variazioni di temperatura della giunzione che fanno variare il valore di $\eta V_T$, combinate con gli errori strumentali.
+Le misure delle caratteristiche in uscita del transistor si sono rivelate qualitativamente in accordo con la teoria riproducendo l'andamento prima lineare nella regione attiva e poi esponenziale in quella di saturazione. Evidente è l'inclinazione delle due rette dovuto all'effetto Early, il cui valore di tensione è risultato in entrambe le curve dell'ordine di grandezza previsto.  
+Anche il parametro b, ovvero la resistenza in uscita, e di conseguenza il suo inverso g sono risultati dell'ordine di grandezza aspettato per entrambe le due curve. 
+Infine, il valore stimato di $ \beta $ è risultato anch'esso compatibile con i valori di aspettazione.
+Fa cagare come conclusione ma non c'ho sbatti. Evviva Kirby
+\newpage
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\linewidth]{../kirby}
+\end{figure}
 \end{document}
