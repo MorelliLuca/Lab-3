@@ -54,7 +54,7 @@ La prova consisteva nella misura delle caratteristiche in uscita di un transisto
 	\label{fig:schema}
 	\caption{Schema del circuito realizzato}
 	\end{figure}
-Prima di tutto abbiamo cortocircuitato i punti A e C, poi abbiamo fissato il puntale rosso del multimetro al punto D, mentre quello nero al punto B, dopodichè abbiamo agito sul potenziometro $ R_{B} $ da $ 100\, k\Omega $ per fissare una corrente di base $ I_{B}= -200 \, \mu A$. Abbiamo quindi cortocircuitato i punti B e D e fissato il multimetro tra A e C, collegando il puntale rosso al primo e il nero al secondo. Abbiamo collegato inoltre l'oscilloscopio a C. Abbiamo quindi misurato la caratteristica in uscita, prendendo con il multimetro la corrente di collettore $ I_{C} $ in funzione della tensione tra emettitore e collettore $ V_{CE} $, facendola variare tra i $ -4 V $ e i $ -0.05 V $ agendo sul potenziometro $ R_{A} $ da $ 1 k\,\Omega $. In particolare, abbiamo eseguito 32 misure, di cui 21 per valori di tensioni maggiori o uguali ad $ 1 V $. Abbiamo poi ripetuto la procedura per una corrente di base di $ -100 \mu A $.
+Prima di tutto abbiamo cortocircuitato i punti A e C, poi abbiamo fissato il puntale rosso del multimetro al punto D, mentre quello nero al punto B, dopodichè abbiamo agito sul potenziometro $ R_{B} $ da $ 100\, k\Omega $ per fissare una corrente di base $ I_{B}= -200 \, \mu A$. Abbiamo quindi cortocircuitato i punti B e D e fissato il multimetro tra A e C, collegando il puntale rosso al primo, il nero al secondo e l'oscilloscopio a C. Abbiamo quindi ottenuto la caratteristica in uscita misurando con il multimetro la corrente di collettore $ I_{C} $ in funzione della tensione tra emettitore e collettore $ V_{CE} $, facendola variare tra i $ -4 V $ e i $ -0.05 V $ agendo sul potenziometro $ R_{A} $ da $ 1 k\,\Omega $. In particolare, abbiamo eseguito 32 misure, di cui 21 per valori di tensioni maggiori o uguali ad $ 1 V $. Abbiamo poi ripetuto la procedura per una corrente di base di $ -100 \mu A $.
 \section{Materiali utilizzati}
 \begin{itemize}
 	\item Potenziometri da $ 1 \,k\Omega $ e da $ 100 \,k\Omega $
@@ -71,7 +71,7 @@ Prima di tutto abbiamo cortocircuitato i punti A e C, poi abbiamo fissato il pun
 	\item Multimetro digitale ISO-TECH, IDM 105
 \end{itemize}
 \section{Misurazioni}
-La tabella (\ref{tab:strumenti}) di seguito riporta i valori relativi a fondo scala, risoluzione e precisione dei vari strumenti:
+La tabella (\ref{tab:strumenti}) di seguito riportiamo i valori relativi a fondo scala, risoluzione e precisione dei vari strumenti:
 	\begin{table}[H]
 		\centering
 		\begin{tabular}{|c|c|c|c|}
@@ -94,7 +94,7 @@ La tabella (\ref{tab:strumenti}) di seguito riporta i valori relativi a fondo sc
 	\label{tab:strumenti}
 	\caption{Dati forniti dai data sheet della strumentazione utilizzata}
 	\end{table}
-Per il calcolo degli errori relativi alle misure effettuate con l'oscilloscopio si è usata la seguente formula:
+Per il calcolo degli errori relativi alle misure effettuate con l'oscilloscopio abbiamo utilizzato la seguente formula:
 \begin{equation}
 	\sigma=\sqrt{(\sigma_{L})^{2}+(\sigma_{Z})^{2}+(\sigma_{C})^{2}}
 \end{equation}
@@ -103,10 +103,10 @@ dove $\sigma_{C}= (misura\cdot0.03) $ è l'errore del costruttore.
 	\sigma_{L}=\sigma_{Z}=\frac{fondo \:scala}{5}\cdot\#tacchette \:apprezzabili
 \end{equation*}
 $ \sigma_{Z} $ è l'errore sullo zero, in tal caso il fondo scala vale 10 mV/div.\\
-Invece $ \sigma_{L} $ è l'errore sulla lettura e in questo caso il fondo scala varia in base alla misura, mentre ``\#tacchette apprezzabili" é stato considerato 0.5 per tutte le misure.
-Per gli errori relativi al multimetro abbiamo preso la misura e moltiplicata rispettivamente per 0.3\% , 0.1\% o 0.4\%  in base al fondo scala usato, poi abbiamo arrotondato all'ordine di grandezza della risoluzione ed aggiunto due digit.
+Invece $ \sigma_{L} $ è l'errore sulla lettura e in questo caso il fondo scala varia in base alla misura, mentre abbiamo considerato ``\#tacchette apprezzabili" pari a 0.5 per tutte le misure.
+Per gli errori relativi al multimetro abbiamo preso la misura e moltiplicata rispettivamente per 0.3\% , 0.1\% o 0.4\%  in base al fondo scala usato, poi abbiamo arrotondato all'ordine di grandezza della risoluzione ed aggiunto due digit, secondo le istruzioni del data sheet.
 \subsection{Corrente a $ -200\,\mu A $}
-Nella seguente tabella (\ref{tab:200muA}) sono riportati i punti sperimentali acquisiti per la caratteristica in uscita del transistor con corrente di base $ I_{B}= -200\,\mu A $. Per ogni misura è riportato il fondo scala utilizzato poichè, come si può vedere in tabella \ref{tab:strumenti}, questo influenza la stima dell'errore.
+Nella seguente tabella (\ref{tab:200muA}) abbiamo riportato i punti sperimentali acquisiti per la caratteristica in uscita del transistor con corrente di base $ I_{B}= -200\,\mu A $. Per ogni misura abbiamo indicato il fondo scala utilizzato poichè, come si può vedere in tabella \ref{tab:strumenti}, questo influenza la stima dell'errore.
 %errori multimetro
 	\begin{table}[H]
 		\centering
@@ -183,7 +183,7 @@ Nella seguente tabella (\ref{tab:200muA}) sono riportati i punti sperimentali ac
 		\label{tab:200muA}
 	\end{table}
 \subsection{Corrente a $ -100\,\mu A $}
-Nella tabella (\ref{tab:100muA}), sotto riportata, sono presentati i punti sperimentali acquisiti per la caratteristica in uscita del transistor con corrente di base $ I_{B}= -100\,\mu A $. Per ogni misura è riportato il fondo scala utilizzato poichè, come si può vedere in tabella \ref{tab:strumenti}, questo influenza la stima dell'errore.
+Nella tabella (\ref{tab:100muA}), sotto riportata, abbiamo elencato i punti sperimentali acquisiti per la caratteristica in uscita del transistor con corrente di base $ I_{B}= -100\,\mu A $. Per ogni misura abbiamo riportato il fondo scala utilizzato poichè, come si può vedere in tabella \ref{tab:strumenti}, questo influenza la stima dell'errore.
 	\begin{table}[H]
 		\centering
 	\begin{tabular}{|c|c|c|c|}
@@ -265,9 +265,9 @@ Abbiamo fittato i dati ricavati dalle tabelle (\ref{tab:200muA}) e (\ref{tab:100
 	V_{CE}=a+bI_{C} \quad con\quad \:a\equiv tensione\, di\, Early \,V_{A},\:\: b\equiv\frac{\Delta V_{CE}}{\Delta I_{C}}
 	\label{fitlin}
 \end{equation}
-Dai fit abbiamo ottenuto i parametri caratteristici del transistor alle diverse correnti e abbiamo quindi riportato i risultati su due grafici, che abbiamo poi unito in un unico multigrafo, insieme ai punti sperimentali in modo da costruire le due curve I-V per i due valori di corrente analizzati. Per quanto riguarda gli errori associati ai parametri li abbiamo ottenuti tramite somma in quadratura. Vorremmo far presente che i grafici sono stati rappresentati nel primo quadrante, quindi con valori di tensioni e di correnti positivi, nonostante i valori di entrambe fossero negative perchè così il grafico è più semplice da visualizzare.
+Dai fit abbiamo ottenuto i parametri caratteristici del transistor alle diverse correnti e abbiamo quindi riportato i risultati su due grafici, che abbiamo poi unito in uno unico, insieme ai punti sperimentali in modo da costruire le due curve I-V per i due valori di corrente analizzati. Per quanto riguarda gli errori associati ai parametri li abbiamo ottenuti tramite somma in quadratura. Si deve tenr presente che i grafici sono stati rappresentati nel primo quadrante, quindi con valori di tensioni e di correnti positivi, nonostante i valori di entrambe fossero negative secondo le consuete convenzioni.
   \subsection{Corrente a $ -200\,\mu A $}
-Dal fit dei dati in tabella (\ref{tab:200muA}), riportato nel grafico in figura \ref{fig:corrente 200}, abbiamo ottenuto come tensione di Early $ V_{A}=-12020\pm390\ mV $, mentre la resistenza in uscita è risultata $ \frac{\Delta V_{CE}}{\Delta I _{C}}=414\pm12\ \Omega$. Per il suo inverso, ovvero la conduttanza, abbiamo ottenuto $ g=(241.8\pm6.8)\cdot 10^{-5} A/V $. Si può chiaramente vedere sia l'andamento lineare, con inclinazione dovuto all'effetto Early, che il gomito della curva quando la corrente inizia a variare esponenzialmente.
+Dal fit dei dati in tabella (\ref{tab:200muA}), riportato nel grafico in figura \ref{fig:corrente 200}, abbiamo ottenuto come tensione di Early $ V_{A}=-12020\pm390\ mV $, mentre la resistenza in uscita è risultata $ \frac{\Delta V_{CE}}{\Delta I _{C}}=414\pm12\ \Omega$. Per il suo inverso, ovvero la conduttanza, abbiamo ottenuto $ g=(241.8\pm6.8)\cdot 10^{-5} S$. Si può chiaramente vedere sia l'andamento lineare, con inclinazione dovuto all'effetto Early, che il gomito della curva quando la corrente inizia a variare esponenzialmente.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\linewidth]{../200 muA/c1}
@@ -275,15 +275,15 @@ Dal fit dei dati in tabella (\ref{tab:200muA}), riportato nel grafico in figura 
 	\label{fig:corrente 200}
 \end{figure}
 \subsection{Corrente a $ -100\,\mu A $}
-Dal fit dei dati in tabella (\ref{tab:100muA}), riportato nel grafico in figura \ref{fig:corrente 100}, abbiamo ottenuto come tensione di Early $ V_{A}=-16130\pm510\ mV $, mentre la resistenza in uscita è risultata $ \frac{\Delta V_{CE}}{\Delta I _{C}}=985\pm28\ \Omega$. Per il suo inverso, ovvero la conduttanza, abbiamo ottenuto $ g=(101.5\pm2.9)\cdot 10^{-5} A/V $. Si può chiaramente vedere sia l'andamento lineare, con inclinazione dovuto all'effetto Early, che il gomito della curva quando la corrente inizia a variare esponenzialmente.
+Dal fit dei dati in tabella (\ref{tab:100muA}), riportato nel grafico in figura \ref{fig:corrente 100}, abbiamo ottenuto come tensione di Early $ V_{A}=-16130\pm510\ mV $, mentre la resistenza in uscita è risultata $ \frac{\Delta V_{CE}}{\Delta I _{C}}=985\pm28\ \Omega$. Per il suo inverso, ovvero la conduttanza, abbiamo ottenuto $ g=(101.5\pm2.9)\cdot 10^{-5} S $. Si può chiaramente vedere sia l'andamento lineare, con inclinazione dovuto all'effetto Early, che il gomito della curva quando la corrente inizia a variare esponenzialmente.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.9\linewidth]{../100 muA/c1}
 		\caption{Caratteristiche in uscita del transistor con corrente di base a -100 $ \mu A $}
 		\label{fig:corrente 100}
 	\end{figure}
-\subsection{Multigrafo con entrambe le curve}
-Di seguito è riportato in figura il multigrafo (\ref{fig:multigrafo}) contenente entrambe le curve. Da quest'ultimo abbiamo ricavato una stima del guadagno di corrente misurando per ogni valore di tensione preso la differenza di corrente tra i punti e diviso per la differenza delle correnti di base secondo la formula:
+\subsection{Confonto delle curve I-V e parametro \beta}
+Di seguito abbiamo riportato in figura un grafico (\ref{fig:multigrafo}) contenente entrambe le curve I-V. Da quest'ultimo abbiamo ricavato una stima del guadagno di corrente misurando per ogni valore di tensione preso la differenza di corrente tra i punti e diviso per la differenza delle correnti di base secondo la formula:
 \begin{equation}
 	\beta=\frac{\Delta I_{C}}{\Delta I_{B}}
 \end{equation}
@@ -293,10 +293,10 @@ Di seguito è riportato in figura il multigrafo (\ref{fig:multigrafo}) contenent
 		\caption{Caratteristiche in uscita del transistor. In rosso per la corrente di base a -200 $ \mu A $ e in blu per la corrente di base a -100 $ \mu A $}
 		\label{fig:multigrafo}
 	\end{figure}
-Da una media di 20 misure prese nella zona con andamento lineare abbiamo ottenuto $ \beta =159\pm 13 $, dove per l'errore abbiamo usato la deviazione standard.
+Da una media di 20 misure che abbiamo preso nella zona con andamento lineare abbiamo ottenuto $ \beta =159\pm 13 $, dove per l'errore abbiamo usato la deviazione standard.
 \section*{Conclusioni}
 Le misure delle caratteristiche in uscita del transistor si sono rivelate qualitativamente in accordo con la teoria riproducendo l'andamento prima lineare nella regione attiva e poi esponenziale in quella di saturazione. Evidente è l'inclinazione delle due rette dovuto all'effetto Early, il cui valore di tensione è risultato in entrambe le curve dell'ordine di grandezza previsto: $ V_{A}=-12020\pm390\ mV $ con corrente di base a $ -200 \mu A $ e $ V_{A}=-16130\pm510\ mV $ per quella a $ -100 \mu A $.  
-Anche il parametro b, ovvero la resistenza in uscita, e di conseguenza il suo inverso g sono risultati dell'ordine di grandezza aspettato per entrambe le due curve, con $ b=414\pm12\ \Omega $ e $ g=(241.8\pm6.8)\cdot 10^{-5} A/V $ per $ I_{B}= -200 \mu A $, mentre per quella a $ -100 \mu A $ abbiamo ottenuto $ b= 985\pm28\ \Omega$ e $ g=(101.5\pm2.9)\cdot 10^{-5} A/V  $. 
+Anche il parametro b, ovvero la resistenza in uscita, e di conseguenza il suo inverso g sono risultati dell'ordine di grandezza aspettato per entrambe le due curve, con $ b=414\pm12\ \Omega $ e $ g=(241.8\pm6.8)\cdot 10^{-5} S $ per $ I_{B}= -200 \mu A $, mentre per quella a $ -100 \mu A $ abbiamo ottenuto $ b= 985\pm28\ \Omega$ e $ g=(101.5\pm2.9)\cdot 10^{-5} S  $. 
 Infine, il valore stimato di $ \beta= 159\pm 13$ è risultato anch'esso compatibile con i valori di aspettazione.
 Fa cagare come conclusione ma non c'ho sbatti. Evviva Kirby
 \newpage
