@@ -133,7 +133,7 @@ La tabella a seguire (\ref{tab:calibrazione}) riporta le misure utilizzate per c
 \label{tab:calibrazione}
 \end{table}
 \subsection{Silicio}
-Nella seguente tabella (\ref{tab:silicio}) sono riportati i punti sperimentali acquisiti per la caratteristica I-V del diodo al Silicio, per ogni misura è riportato il fondo scala utilizzato poichè, come si può vedere in tabella (1), questo influenza la stima dell'errore.
+Nella seguente tabella (\ref{tab:silicio}) sono riportati i punti sperimentali acquisiti per la caratteristica I-V del diodo al Silicio; per ogni misura è riportato il fondo scala utilizzato poichè, come si può vedere in tabella (1), questo influenza la stima dell'errore.
 
 	\begin{table}[H]
 		\centering
@@ -178,7 +178,7 @@ Nella seguente tabella (\ref{tab:silicio}) sono riportati i punti sperimentali a
 		\label{tab:silicio}
 	\end{table}
 \subsection{Germanio}
-Nella tabella (\ref{tab:germanio}), sotto riportata, sono presentati i punti sperimentali acquisiti per la caratteristica I-V del diodo al Germanio, per ogni misura è riportato il fondo scala utilizzato poichè, come si può vedere in tabella (1), questo influenza la stima dell'errore.
+Nella tabella (\ref{tab:germanio}), sotto riportata, sono presentati i punti sperimentali acquisiti per la caratteristica I-V del diodo al Germanio; per ogni misura è riportato il fondo scala utilizzato poichè, come si può vedere in tabella (1), questo influenza la stima dell'errore.
 	\begin{table}[H]
 		\centering
 	\begin{tabular}{|c|c|c|c|}
@@ -237,7 +237,7 @@ Nella tabella (\ref{tab:germanio}), sotto riportata, sono presentati i punti spe
 \end{table}
 \section{Elaborazione dati e risultati}
 
-La prima fase di elaborazione dati consiste nella verifica della calibrazione dell'oscilloscopio, questa ci ha premesso di valutare la miglior stima dell'errore su quest'ultimo. In seguito abbiamo proseguito fittando i dati sperimentali delle tabelle (formula \ref{tab:silicio}) e (formula \ref{tab:germanio}) per ottenere i parametri caratteristici dei diodi con relativi errori, ottenuti tramite somma in quadratura per tenendo conto della presenza di dati non indipendenti tra loro. Per ogni diodo abbiamo effettuato due fit: uno esponenziale (figura \ref{fitexp}) e uno lineare (figura \ref{fitlin}) pesato utilizzando i logaritmi delle correnti misurate.
+La prima fase di elaborazione dati consiste nella verifica della calibrazione dell'oscilloscopio: questa ci ha premesso di valutare la miglior stima dell'errore su quest'ultimo. In seguito abbiamo proseguito fittando i dati sperimentali delle tabelle (formula \ref{tab:silicio}) e (formula \ref{tab:germanio}) per ottenere i parametri caratteristici dei diodi con relativi errori, ottenuti tramite somma in quadratura per tenere conto della presenza di dati non indipendenti tra loro. Per ogni diodo abbiamo effettuato due fit: uno esponenziale (figura \ref{fitexp}) e uno lineare (figura \ref{fitlin}) pesato utilizzando i logaritmi delle correnti misurate.
 \begin{equation}
 	I(V)=I_0(e^{\frac{V}{\eta V_T}}-1)
 	\label{fitexp}
@@ -265,10 +265,10 @@ Per il fit esponenziale abbiamo utilizzato il range $[400mV-650mV]$ mentre per i
 	\caption{Caratteristica I-V del diodo al Silicio: a sinistra sono riportati i punti nel range utilizzato per effettuare il fit esponenziale mentre a destra sono riportati tutti i punti sperimentali in scala semilogaritmica con fit lineare}
 	\label{fig:silicio}
 \end{figure}
-Osserviamo che le misure ottenute dai due fit sono compatibili tra loro seppur il fit lineare si riveli più preciso riuscendo a stimare con un errore minore il parametro $I_0$.
+Osserviamo che le misure ottenute dai due fit sono compatibili tra loro benchè il fit lineare si riveli più preciso riuscendo a stimare con un errore minore il parametro $I_0$.
 I parametri misurati si rivelano in questo caso in accordo con quelli attesi.
 \subsection{Germanio}
-I fit effettuati e riportati graficamente in figura (\ref{fig:germanio}) hanno concesso di stimare $I_0=(4\pm1)\mu A$ e $\eta V_T=(43\pm5)mV$ (fit esponenziale) e $I_0=(2.6\pm0.3)\mu A$ e $\eta V_T=(40\pm3)mV$ (fit lineare). Anche in questo caso per entrambi i fit non abbiamo usato tutti i punti sperimentali raccolti. La deviazione dal comportamento ideale è ancor più evidente che con il diodo al Silicio, come si può apprezzare negli ultimi punti rappresentati, seppur non utilizzati, del grafico semilogaritimico in figura(\ref{fig:germanio}).
+I fit effettuati e riportati graficamente in figura (\ref{fig:germanio}) hanno concesso di stimare $I_0=(4\pm1)\mu A$ e $\eta V_T=(43\pm5)mV$ (fit esponenziale) e $I_0=(2.6\pm0.3)\mu A$ e $\eta V_T=(40\pm3)mV$ (fit lineare). Anche in questo caso per entrambi i fit non abbiamo usato tutti i punti sperimentali raccolti. La deviazione dal comportamento ideale è ancor più evidente che con il diodo al Silicio, come si può apprezzare negli ultimi punti rappresentati, benchè non utilizzati, del grafico semilogaritimico in figura(\ref{fig:germanio}).
 Per il fit esponenziale abbiamo utilizzato il range $[50mV-150mV]$ mentre per il fit lineare il range $[60mV-170mV]$.
 \begin{figure}[H]
 	\centering
