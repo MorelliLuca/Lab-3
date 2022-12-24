@@ -199,7 +199,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 OUTPUT /home/lyokol/Scrivania/Laboratorio/Lab 3/Trabsistor BJT/Relazione/document.pdf
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /home/lyokol/Scrivania/Laboratorio/Lab 3/Trabsistor BJT/Relazione/../200 muA/c1.pdf
 INPUT ../200 muA/c1.pdf
@@ -212,7 +211,6 @@ INPUT ../c1.pdf
 INPUT ../c1.pdf
 INPUT /home/lyokol/Scrivania/Laboratorio/Lab 3/Trabsistor BJT/Relazione/document.aux
 INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
