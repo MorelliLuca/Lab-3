@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.19)  23 DEC 2022 14:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.19)  24 DEC 2022 12:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -712,7 +712,7 @@ Package pdftex.def Info: ../Germanio/canvas.pdf  used on input line 275.
 Here is how much of TeX's memory you used:
  30592 strings out of 478659
  779181 string characters out of 2845919
- 1324620 words of memory out of 3000000
+ 1324611 words of memory out of 3000000
  48392 multiletter control sequences out of 15000+600000
  408840 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -732,7 +732,7 @@ rica/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/
 Users/crica/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10
 .pfb><C:/Users/crica/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmsy7.pfb>
-Output written on document.pdf (5 pages, 205085 bytes).
+Output written on document.pdf (5 pages, 205094 bytes).
 PDF statistics:
  213 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
